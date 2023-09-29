@@ -1,0 +1,41 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "NirmunMiscellany",
+				"abbreviation": "NM",
+				"full": "Nirmun Miscellany",
+				"authors": [
+					"MustardMan42"
+				],
+				"convertedBy": [
+					"MustardMan42"
+				],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"item": [
+		{
+			"name": "Invisible Banana of Inevitable Comedy",
+			"source": "NirmunMiscellany",
+			"page": "0",
+			"type": "G",
+			"rarity": "rare",
+			"charges": 3,
+			"curse": true,
+			"tier": "minor",
+			"wondrous": true,
+			"entries": [
+				"{@i This humble banana peel is all that remains of a breakfast once eaten by the dread giant Kutal the Hide Collector. Kutal refused to eat anything with the skin still attached, including fruit. Kutal was renowned for whipping his still-living enemies through the air so fiercely that their skin would slough off in one clean piece, which Kutal would keep around his belt. How the banana peel escaped his collection is a mystery.}",
+				"As a bonus action, you may whip this banana peel through the air and throw it into a space within twenty feet of you. As it sails through the air, the banana peel shimmers and becomes invisible. Any creature who moves into or out of the space that the banana occupies must succeed on a DC 12 Dexterity saving throw at disadvantage, or fall {@condition prone}.",
+				"The Invisible Banana Peel of Inevitable Comedy can only be used three times before the magic preserving it fails and it becomes a mundane, but rotten, banana peel.",
+				"{@b {@i Curse.}} If the Invisible Banana Peel of Inevitable Comedy does not claim a victim within one round of its use, it will move to a space it deems more likely to find a victim."
+			]
+		}
+	]
+}
