@@ -11,19 +11,19 @@
 				"convertedBy": [
 					"MustardMan42"
 				],
-				"color": "#0080ff",
+				"color": "0080ff",
 				"version": "1.0",
 				"url": "https://raw.githubusercontent.com/MustardMan42/NM/main/Nirmun%20Miscellany.json",
 				"targetSchema": "1.0"
 			}
 		],
-		"dateAdded": 0,
-		"dateLastModified": 0
+		"dateAdded": 1696101615,
+		"dateLastModified": 1696101615
 	},
 	"monster": [
 		{
 			"name": "Adolescent Basilisk",
-			"source": "CreaturesofNirmun",
+			"source": "NirmunMiscellany",
 			"page": 1,
 			"size": [
 				"L"
@@ -72,7 +72,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 2 ({@damage 1d4}) poison damage."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 2 ({@damage 1d4}) acid  damage."
 					]
 				}
 			],
@@ -81,8 +81,8 @@
 				"D"
 			],
 			"damageTags": [
-				"I",
-				"P"
+				"P",
+				"A"
 			],
 			"miscTags": [
 				"MW"
@@ -98,20 +98,82 @@
 	],
 	"item": [
 		{
-			"name": "Invisible Banana of Inevitable Comedy",
+			"name": "Invisible Banana Peel of Inevitable Comedy",
 			"source": "NirmunMiscellany",
 			"page": 0,
-			"type": "G",
-			"rarity": "rare",
-			"charges": 3,
+			"rarity": "uncommon",
 			"curse": true,
 			"tier": "minor",
 			"wondrous": true,
 			"entries": [
 				"{@i This humble banana peel is all that remains of a breakfast once eaten by the dread giant Kutal the Hide Collector. Kutal refused to eat anything with the skin still attached, including fruit. Kutal was renowned for whipping his still-living enemies through the air so fiercely that their skin would slough off in one clean piece, which Kutal would keep around his belt. How the banana peel escaped his collection is a mystery.}",
-				"As a bonus action, you may whip this banana peel through the air and throw it into a space within twenty feet of you. As it sails through the air, the banana peel shimmers and becomes invisible. Any creature who moves into or out of the space that the banana occupies must succeed on a DC 12 Dexterity saving throw at disadvantage, or fall {@condition prone}.",
-				"The Invisible Banana Peel of Inevitable Comedy can only be used three times before the magic preserving it fails and it becomes a mundane, but rotten, banana peel.",
-				"{@b {@i Curse.}} If the Invisible Banana Peel of Inevitable Comedy does not claim a victim within one round of its use, it will move to a space it deems more likely to find a victim."
+				"As a bonus action, you may whip this banana peel through the air and throw it into a space within 20 ft. of you. As it sails through the air, the banana peel shimmers and becomes {@condition invisible}. Any creature who moves into or out of the space that the banana occupies must succeed on a {@dc 12} Dexterity saving throw at disadvantage, or fall {@condition prone}.",
+				"The Invisible Banana Peel of Inevitable Comedy can be used 3 times before the magic preserving it fails and it becomes a mundane, but rotten, banana peel.",
+				"{@b {@i Curse.}} If the Invisible Banana Peel of Inevitable Comedy does not claim a victim within one round of its use, it will teleport up to 20 ft. to a space it deems more likely to find a victim."
+			]
+		},
+		{
+			"name": "Suit of Approximate Splendor",
+			"source": "NirmunMiscellany",
+			"page": 0,
+			"rarity": "common",
+			"curse": true,
+			"tier": "minor",
+			"wondrous": true,
+			"entries": [
+				"{@i This two piece suit is a moth-eaten shade of musty orange. The buttons that are present are hanging by a thread.}",
+				"This shabby outfit changes form based on the wearer's requests, although the effect is purely cosmetic. The suit can be worn over armor, and is not an illusion.",
+				"{@b {@i Curse.}} The Suit of Approximate Splendor will always create a slightly worse version of whatever the wearer requests it to become. For example, the requested glorious purple robe will appear frayed at the edges and have moth holes or mud streaks. It's trying its best, all right?"
+			]
+		},
+		{
+			"name": "LF's Locket",
+			"source": "NirmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"tier": "minor",
+			"wondrous": true,
+			"entries": [
+				"{@i This silver locket is inscribed with the following: “LF and GA - steady as the tides.” While the locket is in contact with your flesh, a memory of love protects you from death.}",
+				"If you drop to 0 hit points while this locket is touching your skin, instead of making death saving throws you become stable. This has no effect on undead or constructs.",
+				"After this effect is used 3 times, the magic of the locket fades."
+			]
+		},
+		{
+			"name": "Potion of Frogkind",
+			"source": "NirmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"tier": "minor",
+			"type": "P",
+			"entries": [
+				"{@i This concoction is dark green and looks like it has some form of water plant growing in the upper half of the flask.}",
+				"When you drink this potion, you polymorph into a frog until the end of your next turn. Use the {@creature frog|MM} stat block."
+			]
+		},
+		{
+			"name": "Potion of Hard Liquor",
+			"source": "NirmunMiscellany",
+			"page": 0,
+			"rarity": "common",
+			"tier": "minor",
+			"type": "P",
+			"entries": [
+				"{@i This beverage is completely clear, and has a medicinal odor.}",
+				"When you drink this potion, you must succeed a {@dc 18} Constitution saving throw. On a success, you are unaffected, save for a fuzzy feeling. On a failure, you are {@condition poisoned}. If you fail by more than 5, you also spend your action vomiting until the end of your next turn."
+			]
+		},
+		{
+			"name": "Potion of Vile Bile",
+			"source": "NirmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"tier": "minor",
+			"type": "P",
+			"entries": [
+				"{@i This potion is bubbling violently, and the bubbles increase in intensity the more the flask is shaken.}",
+				"When you drink this potion, you must spend the next 3 turns vomiting. Vomiting isn't necessarily a bad thing!",
+				"Each turn you must use your action to exhale acid at a target within 30 feet of you. The target must make a {@dc 13} Dexterity saving throw, taking {@damage 3d6} acid damage on a failed save, or half as much damage on a successful one."
 			]
 		}
 	]
