@@ -148,7 +148,7 @@
 			"type": "P",
 			"entries": [
 				"{@i This concoction is dark green and looks like it has some form of water plant growing in the upper half of the flask.}",
-				"When you drink this potion, you polymorph into a frog until the end of your next turn. Use the {@creature frog|MM} stat block."
+				"When you drink this potion, you are {@spell polymorph|PHB|polymorphed} into a frog until the end of your next turn. Use the {@creature frog|MM} stat block."
 			]
 		},
 		{
@@ -160,7 +160,7 @@
 			"type": "P",
 			"entries": [
 				"{@i This beverage is completely clear, and has a medicinal odor.}",
-				"When you drink this potion, you must succeed a {@dc 18} Constitution saving throw. On a success, you are unaffected, save for a fuzzy feeling. On a failure, you are {@condition poisoned}. If you fail by more than 5, you also spend your action vomiting until the end of your next turn."
+				"When you drink this potion, you must succeed a {@dc 18} Constitution saving throw. On a success, you are unaffected, save for a fuzzy feeling. On a failure, you are {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, you are also {@condition incapacitated} until the start of your next turn, as your body rejects the potion."
 			]
 		},
 		{
@@ -173,7 +173,7 @@
 			"entries": [
 				"{@i This potion is bubbling violently, and the bubbles increase in intensity the more the flask is shaken.}",
 				"When you drink this potion, you must spend the next 3 turns vomiting. Vomiting isn't necessarily a bad thing!",
-				"Each turn you must use your action to exhale acid at a target within 30 feet of you. The target must make a {@dc 13} Dexterity saving throw, taking {@damage 3d6} acid damage on a failed save, or half as much damage on a successful one."
+				"Each turn you must use your action to exhale a spray of acid at a target within 30 feet of you. The target must make a {@dc 13} Dexterity saving throw, taking {@damage 3d6} acid damage on a failed save, or half as much damage on a successful one."
 			]
 		}
 	]
