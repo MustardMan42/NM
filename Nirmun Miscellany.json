@@ -175,6 +175,32 @@
 				"When you drink this potion, you must spend the next 3 turns vomiting. Vomiting isn't necessarily a bad thing!",
 				"Each turn you must use your action to exhale a spray of acid at a target within 30 feet of you. The target must make a {@dc 13} Dexterity saving throw, taking {@damage 3d6} acid damage on a failed save, or half as much damage on a successful one."
 			]
+		},
+		{
+			"name": "Dual-Action Hand Crossbow",
+			"source": "NirmunMiscellany",
+			"page": 0,
+			"rarity": "none",
+			"type": "R",
+			"property": [
+				"A",
+				"RLD"
+			],
+			"weight": 5,
+			"value": 15000,
+			"ammunition": true,
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|PHB",
+			"weaponCategory": "martial",
+			"range": "30/120",
+			"reload": 4,
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"entries": [
+				"This hand crossbow has been heavily modified to reduce time spent loading. Two laths (bows) have been attached to a single frame, and the two bowstrings joined to the rotating draw mechanism. The crossbow features a dual trigger, and is loaded via a specialized cartridge that contains 4 bolts.",
+				"Firing the hand crossbow uses the attack action, the crossbow can be fired more than once per turn using extra attack. The dual-action hand crossbow can be fired 4 times before a bonus action is needed to load a new cartridge."
+			]
 		}
 	]
 }
