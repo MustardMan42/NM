@@ -478,20 +478,6 @@
 			]
 		},
 		{
-			"name": "Suit of Approximate Splendor",
-			"source": "NírmunMiscellany",
-			"page": 0,
-			"rarity": "common",
-			"curse": true,
-			"tier": "minor",
-			"wondrous": true,
-			"entries": [
-				"{@i This two piece suit is a moth-eaten shade of musty orange. The buttons that are present are hanging by a thread.}",
-				"This shabby outfit changes form based on the wearer's requests, although the effect is purely cosmetic. The suit can be worn over armor, and is not an illusion.",
-				"{@b {@i Curse.}} The Suit of Approximate Splendor will always create a slightly worse version of whatever the wearer requests it to become. For example, the requested glorious purple robe will appear frayed at the edges and have moth holes or mud streaks. It's trying its best, all right?"
-			]
-		},
-		{
 			"name": "LF's Locket",
 			"source": "NírmunMiscellany",
 			"page": 0,
