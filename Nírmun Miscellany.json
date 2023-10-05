@@ -34,7 +34,7 @@
 			"province": "Light, justice, leadership",
 			"domains": [
 				"Light",
-				"Order"
+				"War"
 			]
 		},
 		{
@@ -173,7 +173,8 @@
 			],
 			"province": "Power, oaths, transformation",
 			"domains": [
-				"Order"
+				"Order",
+				"Arcana"
 			]
 		}
 	],
