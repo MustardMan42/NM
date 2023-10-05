@@ -1,0 +1,570 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "NírmunMiscellany",
+				"abbreviation": "NM",
+				"full": "Nírmun Miscellany",
+				"authors": [
+					"MustardMan42"
+				],
+				"convertedBy": [
+					"MustardMan42"
+				],
+				"color": "0080ff",
+				"version": "1.0",
+				"url": "https://raw.githubusercontent.com/MustardMan42/NM/main/Nirmun%20Miscellany.json",
+				"targetSchema": "1.0"
+			}
+		],
+		"dateAdded": 1696101615,
+		"dateLastModified": 1696101615
+	},
+	"deity": [
+		{
+			"name": "Solos",
+			"title": "The Sun",
+			"source": "NírmunMiscellany",
+			"pantheon": "Nírmun",
+			"symbol": "A bursting sun caught in the jaws of a bear",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"province": "Light, justice, leadership",
+			"domains": [
+				"Light",
+				"Order"
+			]
+		},
+		{
+			"name": "Lunéya",
+			"title": "The Witch",
+			"source": "NírmunMiscellany",
+			"pantheon": "Nírmun",
+			"symbol": "A crescent moon with a shooting star",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"province": "Magic, dreams, the moon",
+			"domains": [
+				"Knowledge",
+				"Arcana"
+			]
+		},
+		{
+			"name": "Vlasta",
+			"title": "The Mother",
+			"source": "NírmunMiscellany",
+			"pantheon": "Nírmun",
+			"symbol": "A campfire inside a stone keep",
+			"alignment": [
+				"G",
+				"N"
+			],
+			"province": "Warmth, the home, loyalty",
+			"domains": [
+				"Life",
+				"Peace"
+			]
+		},
+		{
+			"name": "Sellen",
+			"title": "Queen of Ravens",
+			"source": "NírmunMiscellany",
+			"pantheon": "Nírmun",
+			"symbol": "A raven skull, one eye socket is punched in",
+			"alignment": [
+				"N"
+			],
+			"province": "Death, fate, winter",
+			"domains": [
+				"Death",
+				"Grave"
+			]
+		},
+		{
+			"name": "Occelita",
+			"title": "The Huntress",
+			"source": "NírmunMiscellany",
+			"pantheon": "Nírmun",
+			"symbol": "Two green, almond shaped eyes",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"province": "Nature, animals, balance",
+			"domains": [
+				"Nature",
+				"Twilight"
+			]
+		},
+		{
+			"name": "Kuvira",
+			"title": "Windcaller",
+			"source": "NírmunMiscellany",
+			"pantheon": "Nírmun",
+			"symbol": "A stiff wind in a ship's sails",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"province": "Travel, winds, songs",
+			"domains": [
+				"Order",
+				"Tempest"
+			]
+		},
+		{
+			"name": "Torval",
+			"title": "The Hammer",
+			"source": "NírmunMiscellany",
+			"pantheon": "Nírmun",
+			"symbol": "A crossed hammer and chisel",
+			"alignment": [
+				"N"
+			],
+			"province": "Craft, creativity, fire",
+			"domains": [
+				"Forge"
+			]
+		},
+		{
+			"name": "Displasí",
+			"title": "The Many-Faced god",
+			"source": "NírmunMiscellany",
+			"pantheon": "Nírmun",
+			"symbol": "A mask divided into quadrants, reach expresses a partial emotion",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"province": "Revenge, punishment, lies",
+			"domains": [
+				"Trickery"
+			]
+		},
+		{
+			"name": "Thum",
+			"title": "Drinker of the Deep",
+			"source": "NírmunMiscellany",
+			"pantheon": "Nírmun",
+			"symbol": "A stormy sea",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"province": "Oceans, blood, storms",
+			"domains": [
+				"Tempest",
+				"War"
+			]
+		},
+		{
+			"name": "Serris",
+			"title": "The Serpent",
+			"source": "NírmunMiscellany",
+			"pantheon": "Nírmun",
+			"symbol": "A snake wrapped around a scroll",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"province": "Power, oaths, transformation",
+			"domains": [
+				"Order"
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Adolescent Basilisk",
+			"source": "NírmunMiscellany",
+			"page": 1,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d6 + 16",
+				"average": 44
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 14,
+			"dex": 8,
+			"con": 15,
+			"int": 2,
+			"wis": 8,
+			"cha": 7,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 9,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Petrifying Gaze",
+					"entries": [
+						"If a creature starts its turn within 15 feet of the basilisk and the two of them can see each other, the basilisk can force the creature to make a {@dc 12} Constitution saving throw if the basilisk isn't {@condition incapacitated}. On a failed save, the creature magically begins to turn to stone and is {@condition restrained}. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is {@condition petrified} until freed by the  {@spell greater restoration} spell or other magic.",
+						"A creature that isn't {@quickref Surprise|PHB|3|0|surprised} can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save.",
+						"If the basilisk sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage plus 2 ({@damage 1d4}) acid  damage."
+					]
+				}
+			],
+			"tokenUrl": "https://5e.tools/img/OotA/Young Basilisk.png",
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"P",
+				"A"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"petrified",
+				"restrained"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Pachycephalosaurus",
+			"source": "NírmunMiscellany",
+			"page": 2,
+			"basicRules": true,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"dinosaur"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d10 + 5",
+				"average": 32
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 12,
+			"int": 3,
+			"wis": 12,
+			"cha": 6,
+			"passive": 11,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the pachycephalosaurus moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 ({@damage 2d4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The pachycephalosaurus has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Ram",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"hill"
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"fluff": {
+				"entries": [
+					"This bipedal dinosaur is a herbivore that can be deadly if provoked. Its bony crest can be used to deal crushing blows if enough momentum is built up."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Pachycephalosaurus_Reconstruction.jpg/1920px-Pachycephalosaurus_Reconstruction.jpg"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"B"
+			],
+			"savingThrowForced": [
+				"strength"
+			]
+		},
+		{
+			"name": "Dilophosaurus",
+			"source": "NírmunMiscellany",
+			"page": 3,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"dinosaur"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d8 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 15,
+			"con": 14,
+			"int": 4,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"cr": "1",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dilophosaurus makes one Bite or Poison Saliva attack and two Claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Poison Saliva {@recharge 5}",
+					"entries": [
+						"The dilophosaurus spits a glob of venom at a point it can see within 30 feet of it. Each creature within 5 feet of that point must make a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/deinonychus.mp3"
+			},
+			"traitTags": [
+				"Pounce"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"hasFluff": true,
+			"fluff": {
+				"entries": [
+					"This bipedal carnivore is known for spitting venom at its prey and then moving close to strike the final blow."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dilophosaurus_with_nest.png/1280px-Dilophosaurus_with_nest.png"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"A",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Invisible Banana Peel of Inevitable Comedy",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"curse": true,
+			"tier": "minor",
+			"wondrous": true,
+			"entries": [
+				"{@i This humble banana peel is all that remains of a breakfast once eaten by the dread giant Kutal the Hide Collector. Kutal refused to eat anything with the skin still attached, including fruit. Kutal was renowned for whipping his still-living enemies through the air so fiercely that their skin would slough off in one clean piece, which Kutal would keep around his belt. How the banana peel escaped his collection is a mystery.}",
+				"As a bonus action, you may whip this banana peel through the air and throw it into a space within 20 ft. of you. As it sails through the air, the banana peel shimmers and becomes {@condition invisible}. Any creature who moves into or out of the space that the banana occupies must succeed on a {@dc 12} Dexterity saving throw at disadvantage, or fall {@condition prone}.",
+				"The Invisible Banana Peel of Inevitable Comedy can be used 3 times before the magic preserving it fails and it becomes a mundane, but rotten, banana peel.",
+				"{@b {@i Curse.}} If the Invisible Banana Peel of Inevitable Comedy does not claim a victim within one round of its use, it will teleport up to 20 ft. to a space it deems more likely to find a victim."
+			]
+		},
+		{
+			"name": "Suit of Approximate Splendor",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "common",
+			"curse": true,
+			"tier": "minor",
+			"wondrous": true,
+			"entries": [
+				"{@i This two piece suit is a moth-eaten shade of musty orange. The buttons that are present are hanging by a thread.}",
+				"This shabby outfit changes form based on the wearer's requests, although the effect is purely cosmetic. The suit can be worn over armor, and is not an illusion.",
+				"{@b {@i Curse.}} The Suit of Approximate Splendor will always create a slightly worse version of whatever the wearer requests it to become. For example, the requested glorious purple robe will appear frayed at the edges and have moth holes or mud streaks. It's trying its best, all right?"
+			]
+		},
+		{
+			"name": "LF's Locket",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"tier": "minor",
+			"wondrous": true,
+			"entries": [
+				"{@i This silver locket is inscribed with the following: “LF and GA - steady as the tides.” While the locket is in contact with your flesh, a memory of love protects you from death.}",
+				"If you drop to 0 hit points while this locket is touching your skin, instead of making death saving throws you become stable. This has no effect on undead or constructs.",
+				"After this effect is used 3 times, the magic of the locket fades."
+			]
+		},
+		{
+			"name": "Potion of Frogkind",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"tier": "minor",
+			"type": "P",
+			"entries": [
+				"{@i This concoction is dark green and looks like it has some form of water plant growing in the upper half of the flask.}",
+				"When you drink this potion, you are {@spell polymorph|PHB|polymorphed} into a frog until the end of your next turn. Use the {@creature frog|MM} stat block."
+			]
+		},
+		{
+			"name": "Potion of Hard Liquor",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "common",
+			"tier": "minor",
+			"type": "P",
+			"entries": [
+				"{@i This beverage is completely clear, and has a medicinal odor.}",
+				"When you drink this potion, you must succeed a {@dc 18} Constitution saving throw. On a success, you are unaffected, save for a fuzzy feeling. On a failure, you are {@condition poisoned} for 1 hour. If the saving throw fails by 5 or more, you are also {@condition incapacitated} until the start of your next turn, as your body rejects the potion."
+			]
+		},
+		{
+			"name": "Potion of Vile Bile",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"tier": "minor",
+			"type": "P",
+			"entries": [
+				"{@i This potion is bubbling violently, and the bubbles increase in intensity the more the flask is shaken.}",
+				"When you drink this potion, you must spend the next 3 turns vomiting. Vomiting isn't necessarily a bad thing!",
+				"Each turn you must use your action to exhale a spray of acid at a target within 30 feet of you. The target must make a {@dc 13} Dexterity saving throw, taking {@damage 3d6} acid damage on a failed save, or half as much damage on a successful one."
+			]
+		},
+		{
+			"name": "Dual-Action Hand Crossbow",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "none",
+			"type": "R",
+			"property": [
+				"A",
+				"RLD"
+			],
+			"weight": 5,
+			"value": 15000,
+			"ammunition": true,
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|PHB",
+			"weaponCategory": "martial",
+			"range": "30/120",
+			"reload": 4,
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"entries": [
+				"This hand crossbow has been heavily modified to reduce time spent loading. Two laths (bows) have been attached to a single frame, and the two bowstrings joined to the rotating draw mechanism. The crossbow features a dual trigger, and is loaded via a specialized cartridge that contains 4 bolts.",
+				"Firing the hand crossbow uses the attack action, the crossbow can be fired more than once per turn using extra attack. The dual-action hand crossbow can be fired 4 times before a bonus action is needed to load a new cartridge."
+			]
+		}
+	]
+}
