@@ -94,6 +94,213 @@
 			"savingThrowForced": [
 				"constitution"
 			]
+		},
+		{
+			"name": "Pachycephalosaurus",
+			"source": "NirmunMiscellany",
+			"page": 2,
+			"basicRules": true,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"dinosaur"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d10 + 5",
+				"average": 32
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 16,
+			"dex": 11,
+			"con": 12,
+			"int": 3,
+			"wis": 12,
+			"cha": 6,
+			"passive": 11,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Charge",
+					"entries": [
+						"If the pachycephalosaurus moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 5 ({@damage 2d4}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+					]
+				},
+				{
+					"name": "Sure-Footed",
+					"entries": [
+						"The pachycephalosaurus has advantage on Strength and Dexterity saving throws made against effects that would knock it {@condition prone}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Ram",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d4 + 3}) bludgeoning damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"hill"
+			],
+			"traitTags": [
+				"Charge"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"fluff": {
+				"entries": [
+					"This bipedal dinosaur is a herbivore that can be deadly if provoked. Its bony crest can be used to deal crushing blows if enough momentum is built up."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Pachycephalosaurus_Reconstruction.jpg/1920px-Pachycephalosaurus_Reconstruction.jpg"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"B"
+			],
+			"savingThrowForced": [
+				"strength"
+			]
+		},
+		{
+			"name": "Dilophosaurus",
+			"source": "NirmunMiscellany",
+			"page": 3,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"dinosaur"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d8 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 15,
+			"con": 14,
+			"int": 4,
+			"wis": 12,
+			"cha": 6,
+			"skill": {
+				"perception": "+3"
+			},
+			"passive": 13,
+			"cr": "1",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The dilophosaurus makes one Bite or Poison Saliva attack and two Claw attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage."
+					]
+				},
+				{
+					"name": "Poison Saliva {@recharge 5}",
+					"entries": [
+						"The dilophosaurus spits a glob of venom at a point it can see within 30 feet of it. Each creature within 5 feet of that point must make a {@dc 13} Dexterity saving throw, taking 10 ({@damage 3d6}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"grassland",
+				"hill"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/deinonychus.mp3"
+			},
+			"traitTags": [
+				"Pounce"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"hasFluff": true,
+			"fluff": {
+				"entries": [
+					"This bipedal carnivore is known for spitting venom at its prey and then moving close to strike the final blow."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dilophosaurus_with_nest.png/1280px-Dilophosaurus_with_nest.png"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"A",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			]
 		}
 	],
 	"item": [
