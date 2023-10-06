@@ -26,6 +26,7 @@
 			"title": "The Sun",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
+			"category": "Aspects of Divinity",
 			"symbol": "A bursting sun caught in the jaws of a bear",
 			"alignment": [
 				"L",
@@ -42,6 +43,7 @@
 			"title": "The Witch",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
+			"category": "Aspects of Divinity",
 			"symbol": "A crescent moon with a shooting star",
 			"alignment": [
 				"C",
@@ -58,6 +60,7 @@
 			"title": "The Mother",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
+			"category": "Aspects of Divinity",
 			"symbol": "A campfire inside a stone keep",
 			"alignment": [
 				"G",
@@ -74,6 +77,7 @@
 			"title": "Queen of Ravens",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
+			"category": "Aspects of Divinity",
 			"symbol": "A raven skull, one eye socket is punched in",
 			"alignment": [
 				"N"
@@ -89,6 +93,7 @@
 			"title": "The Huntress",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
+			"category": "Aspects of Divinity",
 			"symbol": "Two green, almond shaped eyes",
 			"alignment": [
 				"C",
@@ -105,6 +110,7 @@
 			"title": "Windcaller",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
+			"category": "Aspects of Divinity",
 			"symbol": "A stiff wind in a ship's sails",
 			"alignment": [
 				"L",
@@ -121,6 +127,7 @@
 			"title": "The Hammer",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
+			"category": "Aspects of Divinity",
 			"symbol": "A crossed hammer and chisel",
 			"alignment": [
 				"N"
@@ -135,6 +142,7 @@
 			"title": "The Many-Faced god",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
+			"category": "Aspects of Divinity",
 			"symbol": "A mask divided into quadrants, each expresses a partial emotion",
 			"alignment": [
 				"C",
@@ -150,6 +158,7 @@
 			"title": "Drinker of the Deep",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
+			"category": "Aspects of Divinity",
 			"symbol": "A stormy sea",
 			"alignment": [
 				"N",
@@ -166,7 +175,8 @@
 			"title": "The Serpent",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
-			"symbol": "A snake wrapped around a scroll",
+			"category": "Aspects of Divinity",
+			"symbol": "A snake coiled around a scroll",
 			"alignment": [
 				"L",
 				"E"
