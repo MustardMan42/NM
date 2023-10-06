@@ -565,6 +565,21 @@
 				"This hand crossbow has been heavily modified to reduce time spent loading. Two laths (bows) have been attached to a single frame, and the two bowstrings joined to the rotating draw mechanism. The crossbow features a dual trigger, and is loaded via a specialized cartridge that contains 4 bolts.",
 				"Firing the hand crossbow uses the attack action, the crossbow can be fired more than once per turn using extra attack. The dual-action hand crossbow can be fired 4 times before a bonus action is needed to load a new cartridge."
 			]
+		},
+		{
+			"name": "Cloak of Perpetual Shade",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "common",
+			"tier": "minor",
+			"weight": 2,
+			"curse": true,
+			"wondrous": true,
+			"entries": [
+				"{@i Woven from threads that are soaked in the tragic history of one hundred orphans, this cloak is dark. The hood? Dark. The cape? Dark. The backstory? You guessed it.}",
+				"While the hood of this cloak is raised, your face always appears heavily obscured by darkness. Whether this cloak exudes the darkness or manipulates the lights in the area, is a mystery.",
+				"{@b {@i Curse. }} The darkness of the cloak goes both ways, and everything you look at is heavily obscured. Unless you have {@sense darkvision} or a similar feature, you are {@condition blinded} while the hood is up."
+			]
 		}
 	]
 }
