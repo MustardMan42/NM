@@ -209,8 +209,8 @@
 				}
 			],
 			"hp": {
-				"formula": "8d6 + 16",
-				"average": 44
+				"formula": "7d6 + 14",
+				"average": 38
 			},
 			"speed": {
 				"walk": 20
