@@ -248,16 +248,16 @@
 			"senseTags": [
 				"D"
 			],
-			"damageTags": [
-				"P",
-				"A"
-			],
 			"miscTags": [
 				"MW"
 			],
 			"conditionInflict": [
 				"petrified",
 				"restrained"
+			],
+			"uniqueId": "36518db6-9a7c-486c-9d60-c3f862fc98fa",
+			"damageTags": [
+				"P"
 			],
 			"savingThrowForced": [
 				"constitution"
@@ -347,11 +347,13 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Pachycephalosaurus_Reconstruction.jpg/1920px-Pachycephalosaurus_Reconstruction.jpg"
+							"url": "https://i.imgur.com/z5nzWbx.png"
 						}
 					}
 				]
 			},
+			"uniqueId": "4d9386ae-697b-4ebf-9056-ea44f2235eac",
+			"tokenUrl": "https://i.imgur.com/aoemRUq.png",
 			"damageTags": [
 				"B"
 			],
@@ -456,13 +458,16 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dilophosaurus_with_nest.png/1280px-Dilophosaurus_with_nest.png"
+							"url": "https://cdna.artstation.com/p/assets/images/images/003/145/718/large/william-gozak-dilophosaurus.jpg?1470257033"
 						}
 					}
 				]
 			},
+			"uniqueId": "58b1e589-9fd1-4ed3-b1f8-43af149359ee",
+			"tokenUrl": "https://i.imgur.com/FmvBs8p.png",
 			"damageTags": [
 				"A",
+				"I",
 				"P",
 				"S"
 			],
