@@ -255,7 +255,6 @@
 				"petrified",
 				"restrained"
 			],
-			"uniqueId": "36518db6-9a7c-486c-9d60-c3f862fc98fa",
 			"damageTags": [
 				"P"
 			],
@@ -352,7 +351,6 @@
 					}
 				]
 			},
-			"uniqueId": "4d9386ae-697b-4ebf-9056-ea44f2235eac",
 			"tokenUrl": "https://i.imgur.com/aoemRUq.png",
 			"damageTags": [
 				"B"
@@ -463,7 +461,6 @@
 					}
 				]
 			},
-			"uniqueId": "58b1e589-9fd1-4ed3-b1f8-43af149359ee",
 			"tokenUrl": "https://i.imgur.com/FmvBs8p.png",
 			"damageTags": [
 				"A",
@@ -473,6 +470,129 @@
 			],
 			"savingThrowForced": [
 				"dexterity"
+			]
+		},
+		{
+			"name": "Carnotaurus",
+			"group": [
+				"Dinosaurs"
+			],
+			"source": "NírmunMiscellany",
+			"page": 4,
+			"basicRules": true,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "beast",
+				"tags": [
+					"dinosaur"
+				]
+			},
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "9d12 + 36",
+				"average": 94
+			},
+			"speed": {
+				"walk": 50
+			},
+			"str": 20,
+			"dex": 12,
+			"con": 19,
+			"int": 2,
+			"wis": 12,
+			"cha": 9,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "6",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The carnotaurus makes three attacks: two with its bite and one with its horns. "
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}14 ({@damage 2d8 + 5}) piercing damage. If the target is a Small or smaller creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}, and the carnotaurus can't bite another target."
+					]
+				},
+				{
+					"name": "Horns",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}21 ({@damage 3d10 + 5}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/tyrannosaurus-rex.mp3"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RCH"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Tyrannosaurus Rex.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"This carnivore is known for its distinctive horns and lighter build, making carnotaurus smaller than its larger tyrannosaur cousins. Carnotaurus has less jaw strength than a tyrannosaur, but makes up for its raw power with its speed.",
+									{
+										"type": "entries",
+										"name": "Dinosaurs",
+										"entries": [
+											"Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed.",
+											"Dinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Carnotaurus_head.jpg"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"P"
 			]
 		}
 	],
