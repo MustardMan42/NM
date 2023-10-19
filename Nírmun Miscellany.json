@@ -594,6 +594,225 @@
 			"damageTags": [
 				"P"
 			]
+		},
+		{
+			"name": "Giant Ambulatory Clam",
+			"source": "NírmunMiscellany",
+			"page": 5,
+			"basicRules": true,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "5d8 + 5",
+				"average": 27
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 16,
+			"dex": 13,
+			"con": 13,
+			"int": 4,
+			"wis": 10,
+			"cha": 3,
+			"skill": {
+				"stealth": "+3"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 10,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The clam can breathe air and water."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The clam makes one Bite and one Claw attack."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) piercing damage, and the target is {@condition restrained} (escape {@dc 13})."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) slashing damage. The clam can make Claw attacks against creatures that are {@condition restrained} in its shell."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"underwater"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/giant-crab.mp3"
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Giant Crab.png",
+			"conditionInflict": [
+				"restrained"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"fluff": {
+				"entries": [
+					"These horrifying clams have multiple legs attached to the hinge of their shell that they use to chase down their prey. Inside the shell, their prey is slowly digested, and elements that cannot be absorbed as nutrients are spat out.",
+					"Much like their smaller cousins, these giant clams produce proportionately large {@item pearl||pearls} that are worth 150 gold pieces to the right seller."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/originals/27/6e/63/276e632078ff6975e0006564840167fd.png"
+						}
+					}
+				]
+			},
+			"vulnerable": [
+				{
+					"vulnerable": [
+						"piercing",
+						"slashing"
+					],
+					"note": "damage to the clam's inner flesh"
+				}
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"slashing"
+					],
+					"note": "to the clam's shell"
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Suckling Starfish",
+			"source": "NírmunMiscellany",
+			"page": 6,
+			"basicRules": true,
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d6",
+				"average": 7
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 12,
+			"dex": 14,
+			"con": 11,
+			"int": 1,
+			"wis": 9,
+			"cha": 3,
+			"skill": {
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 30 ft."
+			],
+			"passive": 9,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"The starfish can breathe air and water."
+					]
+				},
+				{
+					"name": "Chameleon Skin",
+					"entries": [
+						"The starfish has advantage on Dexterity ({@skill Stealth}) checks made to hide."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"underwater"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/giant-crab.mp3"
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"senseTags": [
+				"B"
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Giant Crab.png",
+			"action": [
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage, plus 2 ({@damage 1d4}) poison damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"I",
+				"P"
+			]
 		}
 	],
 	"item": [
