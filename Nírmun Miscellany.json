@@ -23,7 +23,7 @@
 	"deity": [
 		{
 			"name": "Solos",
-			"title": "The Sun",
+			"title": "The Sunlord",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
@@ -36,11 +36,14 @@
 			"domains": [
 				"Light",
 				"War"
+			],
+			"entries": [
+				"Solos acts as the chief of the gods. Followers of Solos are often so enamored of his brilliance that they reduce the other deities to mere servants of Solos. Many a war has been waged in the name of Solos and his justice."
 			]
 		},
 		{
 			"name": "Lunéya",
-			"title": "The Witch",
+			"title": "The Seamstress of Stars",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
@@ -53,11 +56,14 @@
 			"domains": [
 				"Knowledge",
 				"Arcana"
+			],
+			"entries": [
+				"Lunéya is thought by many to be the progenitor of magic for mortals. Her magic is not granted but earned, and even wizards may say a prayer to Lunéya before attempting a particularly difficult piece of magic."
 			]
 		},
 		{
 			"name": "Vlasta",
-			"title": "The Mother",
+			"title": "Allmother",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
@@ -70,11 +76,14 @@
 			"domains": [
 				"Life",
 				"Peace"
+			],
+			"entries": [
+				"Vlasta is a force of goodness, with a fatal flaw. Vlasta cannot abide any wavering loyalty to her, and she can be vain. Of all the gods, she is most likely to have pity on the plight of a mortal. Vlasta is often viewed as the patron of healers and midwives."
 			]
 		},
 		{
 			"name": "Sellen",
-			"title": "Queen of Ravens",
+			"title": "The Voice in the Dark",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
@@ -86,11 +95,14 @@
 			"domains": [
 				"Death",
 				"Grave"
+			],
+			"entries": [
+				"Sellen is feared by mortals, but her presence is often less frightening and more calming. Sellen and Vlasta have a strained relationship, as Vlasta’s domain is birth and Sellen’s is death. Elves often worship Sellen, as they concern themselves much with their fate, and expect to not face the death of mortal beings."
 			]
 		},
 		{
 			"name": "Occelita",
-			"title": "The Huntress",
+			"title": "The Verdant Huntress",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
@@ -103,6 +115,9 @@
 			"domains": [
 				"Nature",
 				"Twilight"
+			],
+			"entries": [
+				"Occelita is feisty and spirited, she values skill in battle and ferocity above wisdom. In ancient days Occelita often accepted mortals to hunt with her, but as the wild places have been diminished she has withdrawn her favor from mortal beings."
 			]
 		},
 		{
@@ -120,11 +135,14 @@
 			"domains": [
 				"Order",
 				"Tempest"
+			],
+			"entries": [
+				"Kuvira is often viewed as humorless, because she has no mercy for those who violate her travel blessing. However, when the day’s journey is over Kuvira’s gift of songs can provide a ward from the terrors of the night and the hardships of the road. Bards often claim Kuvira as a patron."
 			]
 		},
 		{
 			"name": "Torval",
-			"title": "The Hammer",
+			"title": "Runecarver",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
@@ -135,6 +153,9 @@
 			"province": "Craft, creativity, fire",
 			"domains": [
 				"Forge"
+			],
+			"entries": [
+				"Torval is a god of creation, and is considered the patron god of craftsmen and artificers. Often depicted as a jovial bearded man, it is uncommon for Torval to be viewed with animosity."
 			]
 		},
 		{
@@ -151,11 +172,14 @@
 			"province": "Revenge, punishment, lies",
 			"domains": [
 				"Trickery"
+			],
+			"entries": [
+				"Displasí rarely appears the same way twice, he is difficult to read and holds a grudge if he feels wronged. Displasí’s true nature is obscured beyond the comprehension of most mortals, even his name is rarely uttered."
 			]
 		},
 		{
 			"name": "Thum",
-			"title": "Drinker of the Deep",
+			"title": "Devourer of the Deep",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
@@ -168,11 +192,14 @@
 			"domains": [
 				"Tempest",
 				"War"
+			],
+			"entries": [
+				"Thum can be surly and solitary, but he understands the lifeblood of the earth better than anyone. Thum’s knowledge of blood, water, and war was essential to the creation of the first orcs. Thum is often invoked as a danger to sailors and a bringer of wrath and ruin."
 			]
 		},
 		{
 			"name": "Serris",
-			"title": "The Serpent",
+			"title": "Mistress of Thorns",
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
@@ -185,6 +212,9 @@
 			"domains": [
 				"Order",
 				"Arcana"
+			],
+			"entries": [
+				"Serris is a goddess of her word, and often promises power in exchange for service. Serris is the historic patron of the yuan-ti, but many believe that she will grant power to the dying in exchange for eternal servitude."
 			]
 		}
 	],
