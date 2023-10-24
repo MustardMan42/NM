@@ -28,6 +28,15 @@
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
 			"symbol": "A bursting sun caught in the jaws of a bear",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://cdn.inprnt.com/thumbs/7d/f2/7df2c22342dbcf2b63e751855da91bf0@2x.jpg"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
 			"alignment": [
 				"L",
 				"G"
@@ -48,6 +57,15 @@
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
 			"symbol": "A crescent moon with a shooting star",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://m.media-amazon.com/images/I/61xyEcWnglS._AC_UF1000,1000_QL80_.jpg"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
 			"alignment": [
 				"C",
 				"N"
@@ -68,6 +86,15 @@
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
 			"symbol": "A campfire inside a stone keep",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://img.freepik.com/premium-vector/bright-fire-glowing-vintage-stone-fireplace_255498-1037.jpg"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
 			"alignment": [
 				"G",
 				"N"
@@ -88,6 +115,15 @@
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
 			"symbol": "A raven skull, one eye socket is punched in",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://m.media-amazon.com/images/I/6180XQbn5NL._AC_UF894,1000_QL80_.jpg"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
 			"alignment": [
 				"N"
 			],
@@ -107,6 +143,15 @@
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
 			"symbol": "Two green, almond shaped eyes",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.pinimg.com/1200x/1c/13/d6/1c13d620348c80021c6a97e5a4197769.jpg"
+				},
+				"style": "deity-symbol",
+				"title": ""
+			},
 			"alignment": [
 				"C",
 				"G"
@@ -126,7 +171,16 @@
 			"source": "NírmunMiscellany",
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
-			"symbol": "A stiff wind in a ship's sails",
+			"symbol": "Windchimes",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/simplicity-is-bliss-sean-reed-price.jpg"
+				},
+			"style": "deity-symbol",
+			"title": ""
+			},
 			"alignment": [
 				"L",
 				"N"
@@ -147,6 +201,15 @@
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
 			"symbol": "A crossed hammer and chisel",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://static.vecteezy.com/system/resources/previews/012/116/774/original/vintage-carpentry-woodword-mechanic-hammer-chisel-cross-can-be-used-like-emblem-logo-badge-label-mark-poster-or-print-monochrome-graphic-art-vector.jpg"
+				},
+			"style": "deity-symbol",
+			"title": ""
+			},
 			"alignment": [
 				"N"
 			],
@@ -165,6 +228,15 @@
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
 			"symbol": "A mask divided into quadrants, each expresses a partial emotion",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://www.artmajeur.com/medias/hd/a/n/antonio-mayer/artwork/13505909_p1010024.jpg?v=1611829470"
+				},
+			"style": "deity-symbol",
+			"title": ""
+			},
 			"alignment": [
 				"C",
 				"E"
@@ -184,6 +256,15 @@
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
 			"symbol": "A stormy sea",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/great-black-wave-julia-jasiczak.jpg"
+				},
+			"style": "deity-symbol",
+			"title": ""
+			},
 			"alignment": [
 				"N",
 				"E"
@@ -204,6 +285,15 @@
 			"pantheon": "Nírmun",
 			"category": "Aspects of Divinity",
 			"symbol": "A snake coiled around a scroll",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"type": "external",
+					"url": "https://i.pinimg.com/736x/fe/4c/d9/fe4cd9b2df55566dfca5d0f07b713491.jpg"
+				},
+			"style": "deity-symbol",
+			"title": ""
+			},
 			"alignment": [
 				"L",
 				"E"
