@@ -178,8 +178,8 @@
 					"type": "external",
 					"url": "https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/simplicity-is-bliss-sean-reed-price.jpg"
 				},
-			"style": "deity-symbol",
-			"title": ""
+				"style": "deity-symbol",
+				"title": ""
 			},
 			"alignment": [
 				"L",
@@ -207,8 +207,8 @@
 					"type": "external",
 					"url": "https://media.istockphoto.com/id/1140061140/vector/steel-hammer-and-chisel.jpg?s=612x612&w=0&k=20&c=3_27KLpQXkRWtlBeMVPNgh1yYVZuHcv_5u4cen2cppQ="
 				},
-			"style": "deity-symbol",
-			"title": ""
+				"style": "deity-symbol",
+				"title": ""
 			},
 			"alignment": [
 				"N"
@@ -234,8 +234,8 @@
 					"type": "external",
 					"url": "https://www.artmajeur.com/medias/hd/a/n/antonio-mayer/artwork/13505909_p1010024.jpg?v=1611829470"
 				},
-			"style": "deity-symbol",
-			"title": ""
+				"style": "deity-symbol",
+				"title": ""
 			},
 			"alignment": [
 				"C",
@@ -262,8 +262,8 @@
 					"type": "external",
 					"url": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/great-black-wave-julia-jasiczak.jpg"
 				},
-			"style": "deity-symbol",
-			"title": ""
+				"style": "deity-symbol",
+				"title": ""
 			},
 			"alignment": [
 				"N",
@@ -291,8 +291,8 @@
 					"type": "external",
 					"url": "https://i.pinimg.com/736x/fe/4c/d9/fe4cd9b2df55566dfca5d0f07b713491.jpg"
 				},
-			"style": "deity-symbol",
-			"title": ""
+				"style": "deity-symbol",
+				"title": ""
 			},
 			"alignment": [
 				"L",
@@ -932,6 +932,156 @@
 			"damageTags": [
 				"I",
 				"P"
+			]
+		},
+		{
+			"name": "Mutant Bear",
+			"source": "NírmunMiscellany",
+			"page": 7,
+			"size": [
+				"L"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "7d10 + 21",
+				"average": 59
+			},
+			"speed": {
+				"walk": 40,
+				"swim": 30
+			},
+			"str": 20,
+			"dex": 10,
+			"con": 16,
+			"int": 8,
+			"wis": 13,
+			"cha": 7,
+			"skill": {
+				"perception": "+5"
+			},
+			"senses": [
+				"blindsight 60 ft."
+			],
+			"passive": 15,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The mutant bear has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"The mutant bear can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Wisdom ({@skill Insight}) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The mutant bear makes two attacks: one with its bite and one with its claws."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d8 + 5}) piercing damage."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d6 + 5}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"forest",
+				"underdark"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/cave-bear.mp3"
+			},
+			"traitTags": [
+				"Keen Senses"
+			],
+			"senseTags": [
+				"B"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://5e.tools/img/MM/Cave Bear.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"This mutated bear uses its ability to mimic sounds to lure its prey, making guttural sounds of distress or phrases such as \"help me\" in a haunting, coarse imitation of speech.",
+									{
+										"name": "Twisted Beyond Belief",
+										"type": "entries",
+										"entries": [
+											"Originally a normal black bear, this creature has been mutated into a twisted form of life. The face of the mutant bear has withered away, revealing the bare bone of its snout and mouth. The side of the bear's face has grown a human skull. Grown larger than its typical species, the mutant bear is more resilient to damage and has integrated part of the intelligence of a human it killed into its form."
+										]
+									}
+								]
+							},
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"That sounds like Cassie! Cassie, I'm coming!"
+										],
+										"by": "Last words of Lyla Johannson, human cartographer"
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.inprnt.com/thumbs/61/64/61646bf6fb796398d4593d52d2c3756d.jpg"
+						}
+					}
+				]
+			},
+			"save": {
+				"str": "+7"
+			},
+			"languages": [
+				"the language of a humanoid the mutant bear has killed"
+			],
+			"damageTags": [
+				"P",
+				"S"
 			]
 		}
 	],
