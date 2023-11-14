@@ -1083,6 +1083,370 @@
 				"P",
 				"S"
 			]
+		},
+		{
+			"name": "Glimmerdew on a Dawnweb",
+			"source": "NírmunMiscellany",
+			"page": 9,
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"formula": "2d6",
+				"average": 7
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 30
+			},
+			"str": 2,
+			"dex": 20,
+			"con": 10,
+			"int": 10,
+			"wis": 14,
+			"cha": 15,
+			"skill": {
+				"perception": "+4",
+				"stealth": "+7"
+			},
+			"passive": 14,
+			"languages": [
+				"Sylvan"
+			],
+			"cr": "1/4",
+			"spellcasting": [
+				{
+					"name": "Innate Spellcasting",
+					"headerEntries": [
+						"Glimmerdew's innate spellcasting ability is Charisma (spell save {@dc 12}). She can innately cast the following spells, requiring only her pixie dust as a component:"
+					],
+					"will": [
+						"{@spell druidcraft}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell confusion}",
+							"{@spell dancing lights}",
+							"{@spell detect evil and good}",
+							"{@spell detect thoughts}",
+							"{@spell dispel magic}",
+							"{@spell entangle}",
+							"{@spell fly}",
+							"{@spell phantasmal force}",
+							"{@spell polymorph}",
+							"{@spell sleep}"
+						]
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"Glimmerdew has advantage on saving throws against spells and other magical effects."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Superior Invisibility",
+					"entries": [
+						"Glimmerdew magically turns {@condition invisible} until her {@status concentration} ends (as if {@status concentration||concentrating} on a spell). Any equipment Glimmerdew wears or carries is {@condition invisible} with her."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/pixie.mp3"
+			},
+			"traitTags": [
+				"Magic Resistance"
+			],
+			"languageTags": [
+				"S"
+			],
+			"spellcastingTags": [
+				"I"
+			],
+			"conditionInflict": [
+				"invisible"
+			],
+			"conditionInflictSpell": [
+				"restrained",
+				"unconscious"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Pixie.png",
+			"fluff": {
+				"name": "Pixie",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Standing barely a foot tall, pixies resemble diminutive elves with gossamer wings like those of dragonflies or butterflies, bright as the clear dawn and as luminous as the full moonrise.",
+									"Curious as cats and shy as deer, pixies go where they please. They like to spy on other creatures and can barely contain their excitement around them. The urge to introduce themselves and strike up a friendship is almost overwhelming; only a pixie's fear of being captured or attacked stays its hand. Those who wander through a pixie's glade might never see the creatures, yet hear the occasional giggle, gasp, or sigh.",
+									"Pixies array themselves like princes and princesses of the fey, wearing flowing gowns and doublets of silk that sparkle like moonlight on a pond. Some dress in acorns, leaves, bark, and the pelts of tiny woodland beasts. They take great pride in their regalia and beam with joy when they are complimented on their ensembles.",
+									{
+										"name": "Magical Faerie Folk",
+										"type": "entries",
+										"entries": [
+											"With their innate power of invisibility, pixies rarely appear unless they wish to be seen. In the Feywild and on the Material Plane, pixies etch patterns of frost on winter ponds and rouse the buds in springtime. They cause flowers to sparkle with summer dew, and color the leaves with the blazing hues of autumn."
+										]
+									},
+									{
+										"name": "Pixie Dust",
+										"type": "entries",
+										"entries": [
+											"When pixies fly visibly, a shower of sparkling dust follows in their wake like the glittering tail of a shooting star. A mere sprinkle of pixie dust is said to be able to grant the power of flight, confuse a creature hopelessly, or send foes into a magical slumber.",
+											"Only pixies can use their dust to its full potential, but these fey are constantly sought out by mages and monsters seeking to study or master their power."
+										]
+									},
+									{
+										"name": "Tiny Tricksters",
+										"type": "entries",
+										"entries": [
+											"While the arrival of visitors piques their curiosity, pixies are too shy to reveal themselves at first. They study the visitors from afar to gauge their temperament or play harmless tricks on them to measure their reactions. For example, pixies might tie a dwarf's boots together, create illusions of strange creatures or treasures, or use dancing lights to lead interlopers astray. If the visitors respond with hostility, the pixies give them a wide berth. If the visitors are good natured, the pixies are likely to be emboldened and more friendly. The fey might even emerge and offer to guide their \"guests\" along a safe route or invite them to a tiny yet satisfying feast prepared in their honor."
+										]
+									},
+									{
+										"name": "Opposed to Violence",
+										"type": "entries",
+										"entries": [
+											"Unlike their fey cousins, the sprites, pixies abhor weapons and would sooner flee than get into a physical altercation with any enemy."
+										]
+									}
+								]
+							},
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"Petal gowns and acorn caps are so last summer!"
+										],
+										"by": "Rivergleam, pixie fashionista"
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Pixie.webp"
+						},
+						"credit": "Annie Stegg"
+					}
+				]
+			},
+			"shortName": "Glimmerdew",
+			"isNpc": true,
+			"damageTagsSpell": [
+				"Y"
+			],
+			"savingThrowForcedSpell": [
+				"intelligence",
+				"strength",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Hardy Sprite",
+			"source": "NírmunMiscellany",
+			"page": 283,
+			"size": [
+				"T"
+			],
+			"type": "fey",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d8",
+				"average": 9
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 40
+			},
+			"str": 3,
+			"dex": 18,
+			"con": 10,
+			"int": 14,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+8"
+			},
+			"passive": 13,
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Lance",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}3 piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 40/160 ft., one target. {@h}1 piercing damage, and the target must succeed on a {@dc 10} Constitution saving throw or become {@condition poisoned} for 1 minute. If its saving throw result is 5 or lower, the {@condition poisoned} target falls {@condition unconscious} for the same duration, or until it takes damage or another creature takes an action to shake it awake."
+					]
+				},
+				{
+					"name": "Heart Sight",
+					"entries": [
+						"The sprite touches a creature and magically knows the creature's current emotional state. If the target fails a {@dc 10} Charisma saving throw, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw."
+					]
+				},
+				{
+					"name": "Invisibility",
+					"entries": [
+						"The sprite magically turns {@condition invisible} until it attacks or casts a spell, or until its {@status concentration} ends (as if {@status concentration||concentrating} on a spell). Any equipment the sprite wears or carries is {@condition invisible} with it."
+					]
+				}
+			],
+			"environment": [
+				"forest"
+			],
+			"familiar": true,
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/sprite.mp3"
+			},
+			"attachedItems": [
+				"lance|phb",
+				"shortbow|phb"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"RW"
+			],
+			"conditionInflict": [
+				"invisible",
+				"poisoned"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Sprite.png",
+			"fluff": {
+				"name": "Sprite",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"In secret groves and shaded glens, tiny sprites with dragonfly wings flutter. For all their fey splendor, however, sprites lack warmth and compassion. They are aggressive and hardy warriors, taking severe measures to ward strangers away from their homes. Interlopers that come too close have their moral character judged, then are put to sleep or frightened off.",
+									{
+										"name": "Forest Protectors",
+										"type": "entries",
+										"entries": [
+											"Sprites build little villages in the boughs of trees and willing treants, in verdant glades brightened by moss, wild flowers, and toadstools. Wild nature thrives, and the sprites allow no trespassers. When intruders are spotted, the sprites lead them astray with ominous rustling from the bushes and distant snapping twigs. Creatures foolish enough to persist in intruding on a sprite's territory are stung with poisoned arrows and lulled into a senseless sleep. While they slumber, the sprites make good their escape, retreating to an even more secluded area of the forest."
+										]
+									},
+									{
+										"name": "Heart Seers",
+										"type": "entries",
+										"entries": [
+											"Sprites can sense whether a creature is good or evil by the sound and feeling of its beating heart. Weighing the balance of a creature's past actions, a sprite can tell whether its heart beats rapidly in love or flags in sorrow, or whether it is darkened by hate or greed. The sprite's power to perceive the heart always shows the truth, because the heart can't lie."
+										]
+									},
+									{
+										"name": "Poison Brewers",
+										"type": "entries",
+										"entries": [
+											"In their forest domains, sprites brew toxins, unguents, antidotes, and poisons, including the sleep poison with which they coat their arrows. They venture far into the woods to harvest rare flowers, mosses, and fungi, sometimes crossing dangerous territory to do so. If desperate, sprites even steal their ingredients from the gardens of hags.",
+											{
+												"name": "Good-Hearted",
+												"entries": [
+													"Because they are judges of the heart and favor good creatures, sprites oppose the will of evil fey and pledge to thwart evil archfey at every turn. If they encounter adventurers on a quest to rid their forest of an evil fey creature or goblinoid menace, they will pledge their support and even come to their aid when the adventurers least expect it.",
+													"Unlike pixies, sprites rarely indulge in frivolous merriment and fun. They are firm warriors, protectors, and judges, and their stern bent causes other fey to consider them overly dour and serious. However, fey that respect the sprites' territory find them staunch allies in times of trouble."
+												],
+												"type": "entries"
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "insetReadaloud",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"The tree had a wee village nestled in its boughs, I swear. Next thing I knew, I was lyin' face-down in the dirt. My head was full of stars. An' when I stood up an' looked around, both the tree an' the wee village were gone."
+										],
+										"by": "Tale of a half-orc ranger"
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Sprite.webp"
+						},
+						"credit": "Carmen Sinek"
+					}
+				]
+			},
+			"damageTags": [
+				"P"
+			],
+			"savingThrowForced": [
+				"charisma",
+				"constitution"
+			]
 		}
 	],
 	"item": [
