@@ -1858,6 +1858,36 @@
 				"While the hood of this cloak is raised, your face always appears heavily obscured by darkness. Whether this cloak exudes the darkness or manipulates the lights in the area, is a mystery.",
 				"{@b {@i Curse. }} The darkness of the cloak goes both ways, and everything you look at is heavily obscured. Unless you have {@sense darkvision} or a similar feature, you are {@condition blinded} while the hood is up."
 			]
+		},
+		{
+			"name": "Fate-Splitter",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "rare",
+			"tier": "minor",
+			"type": "M",
+			"baseItem": "shortsword|phb",
+			"reqAttune": true,
+			"charges": 4,
+			"weight": 2,
+			"attachedSpells": [
+			"bane"
+			],
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"sword": true,
+			"weapon": true,
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"entries": [
+				"{@i This single bladed shortsword is made of a blackened mottled metal. The handle is composed of a length of string wrapped many times around the end to create a sturdy grip. A slim loop of iron serves as a guard.}",
+				"Fate-Splitter can hold 4 charges. When the life of a creature is prematurely ended by this blade, it gains 1 charge.",
+				"{@b {@i Frayed Edge. (2 charges)}} As an action, you may expend two charges to cast the spell {@spell Bane|phb} without using any other material components or spell slots. This does require concentration.",
+				"{@b {@i Splitting the Weave. (4 charges)}} When you use Fate-Splitter as part of an attack on your turn, you may expend four charges to treat one attack roll as an automatic critical hit. You must decide this before making the roll."
+			]
 		}
 	]
 }
