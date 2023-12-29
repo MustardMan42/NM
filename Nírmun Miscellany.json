@@ -1871,7 +1871,7 @@
 			"charges": 4,
 			"weight": 2,
 			"attachedSpells": [
-			"bane"
+				"bane"
 			],
 			"weaponCategory": "martial",
 			"property": [
@@ -1887,6 +1887,31 @@
 				"Fate-Splitter can hold 4 charges. When the life of a creature is prematurely ended by this blade, it gains 1 charge.",
 				"{@b {@i Frayed Edge. (2 charges)}} As an action, you may expend two charges to cast the spell {@spell Bane|phb} without using any other material components or spell slots. This does require concentration.",
 				"{@b {@i Splitting the Weave. (4 charges)}} When you use Fate-Splitter as part of an attack on your turn, you may expend four charges to treat one attack roll as an automatic critical hit. You must decide this before making the roll."
+			]
+		},
+		{
+			"name": "Thread of Spatial Binding",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "rare",
+			"tier": "minor",
+			"wondrous": true,
+			"entries": [
+				"{@i This length of thin silver thread is stronger than it appears, when it is wrapped around a creature not native to the mundane plane, they feel an uncomfortable prickling where it touches their skin.}",
+				"If the thread is wrapped around a celestial, elemental, fey, or fiend, the creature is unable to teleport through spells or other abilities. As an action, the creature can make a {@dc 16} strength check to destroy the thread. On a success, the thread is physically broken, loses its magic, and becomes mundane."
+			]
+		},
+		{
+			"name": "Shard of the Dark Star",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"tier": "minor",
+			"wondrous": true,
+			"entries": [
+				"{@i This smooth, coin sized marble is embedded into a leather wrap that fits around a humanoid hand, so that the marble is opposite the palm. The marble has a black center obscured by wisps of fog that move over the surface.}",
+				"In the presence of sustained bright light, the shard activates and the marble emits a sphere of magical darkness that extends one inch beyond the marble’s radius. Mothfolk utilize these shards to maintain their focus when they venture forth from the Duskleaf forest.",
+				"Said to have been hewn from a star that fell to earth, shards of the Dark Star are seen as ill omens, especially by the worshippers of {@deity Solos|Nírmun|NírmunMiscellany}."
 			]
 		}
 	]
