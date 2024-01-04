@@ -1790,13 +1790,19 @@
 					"entries": [
 						"The penguin ignores difficult terrain created by frozen surfaces, and instead doubles its movement speed."
 					]
+				},
+				{
+					"name": "Fancy Footwork",
+					"entries": [
+						"Once per turn, if the penguin hits with a melee attack against a creature, that creature can't make opportunity attacks against the penguin for the rest of its turn."
+					]
 				}
 			],
 			"action": [
 				{
 					"name": "Pirouette Slice",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage. On a hit, the penguin can   move up to half of its movement without provoking attacks of opportunity."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
 					]
 				}
 			],
