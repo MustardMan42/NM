@@ -1747,6 +1747,89 @@
 			"damageTags": [
 				"P"
 			]
+		},
+		{
+			"name": "Penguin with Swords Strapped to Its Feet",
+			"source": "NírmunMiscellany",
+			"page": 12,
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				9
+			],
+			"hp": {
+				"average": 22,
+				"formula": "3d10 + 6"
+			},
+			"speed": {
+				"walk": 20,
+				"swim": 40
+			},
+			"str": 15,
+			"dex": 9,
+			"con": 14,
+			"int": 3,
+			"wis": 11,
+			"cha": 4,
+			"passive": 10,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"The penguin can hold its breath for 10 minutes."
+					]
+				},
+				{
+					"name": "Makeshift Ice Skates",
+					"entries": [
+						"The penguin ignores difficult terrain created by frozen surfaces, and instead doubles its movement speed."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pirouette Slice",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage. On a hit, the penguin can   move up to half of its movement without provoking attacks of opportunity."
+					]
+				}
+			],
+			"traitTags": [
+				"Hold Breath"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"tokenUrl": "https://i.imgur.com/6z6RsZ3.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Only a true mad genius would combine the depraved mind of a penguin with the cruel blades of a sword. This horrifying pairing barely qualifies as a beast, and all who behold the fruits of its rampage would surely declare it an abomination against nature."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/7ehv4Ki.jpg"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"S"
+			]
 		}
 	],
 	"item": [
