@@ -1836,6 +1836,351 @@
 			"damageTags": [
 				"S"
 			]
+		},
+		{
+			"name": "Gor Gemscale",
+			"source": "NírmunMiscellany",
+			"page": 13,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item splint armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 16",
+				"average": 52
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 14,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"save": {
+				"wis": "+5",
+				"cha": "+6"
+			},
+			"skill": {
+				"athletics": "+7",
+				"intimidation": "+6",
+				"persuasion": "+6"
+			},
+			"passive": 12,
+			"resist": [
+				"acid"
+			],
+			"languages": [
+				"Common",
+				"Draconic"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Gor is an 5th-level spellcaster. Gor's spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Gor has the following paladin spells prepared:"
+					],
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell command}",
+								"{@spell compelled duel}",
+								"{@spell protection from evil and good}",
+								"{@spell sanctuary}",
+								"{@spell wrathful smite}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell branding smite}",
+								"{@spell find steed}",
+								"{@spell lesser restoration}",
+								"{@spell magic weapon}",
+								"{@spell zone of truth}"
+							],
+							"slots": 2
+						}
+					},
+					"ability": "cha",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Gor attacks twice with his greatsword, he can replace one greatsword attack with a breath weapon attack"
+					]
+				},
+				{
+					"name": "Greatsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage."
+					]
+				},
+				{
+					"name": "Acid Breath Weapon (3/Day)",
+					"entries": [
+						"Gor exhales acid in a 30-foot line that is 5 feet wide. Each creature in that area must make a {@dc 13} Dexterity saving throw, taking 11 ({@damage 2d10}) acid damage on a failed save, or half as much damage on a successful one."
+					]
+				}
+			],
+			"attachedItems": [
+				"greatsword|phb"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DR"
+			],
+			"spellcastingTags": [
+				"CP"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"AOE"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/ERLW/Bone Knight.png",
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ec5f60f6-5a1f-4656-a9d1-7d19240b0e45/dfpnunt-53979d21-4566-420a-a0ee-7f8030b2dec5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2VjNWY2MGY2LTVhMWYtNDY1Ni1hOWQxLTdkMTkyNDBiMGU0NVwvZGZwbnVudC01Mzk3OWQyMS00NTY2LTQyMGEtYTBlZS03ZjgwMzBiMmRlYzUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.goC87RBYI9Iq67YBSsVd8yxxGKZzb66HtbHez97wKxM"
+						}
+					}
+				]
+			},
+			"trait": [
+				{
+					"name": "Divine Smite",
+					"entries": [
+						"When Gor hits a creature with a melee weapon attack, he can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is {@dice 2d8} for a 1st-level spell slot, plus {@dice 1d8} for each spell level higher than 1st, to a maximum of {@dice 5d8}. The damage increases by {@dice 1d8} if the target is an undead or a fiend, to a maximum of {@dice 6d8}."
+					]
+				}
+			],
+			"isNpc": true,
+			"dragonCastingColor": "black",
+			"damageTags": [
+				"A",
+				"S"
+			],
+			"damageTagsSpell": [
+				"R",
+				"Y"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Ugaro the Bloodbinder",
+			"source": "NírmunMiscellany",
+			"page": 13,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"orc"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item ring mail|phb}",
+						"{@item shield|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "2d10 + 6",
+				"average": 17
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 17,
+			"int": 9,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"intimidation": "+3",
+				"religion": "+1",
+				"athletics": "+5",
+				"survival": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Orc"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Ugaro has been blessed by {@deity Thum|Nírmun|NírmunMiscellany} with some spells. His spellcasting ability is Wisdom (spell save {@dc 11}, {@hit 3} to hit with spell attacks). Ugaro has the following cleric spells prepared:"
+					],
+					"will": [
+						"{@spell augury}",
+						"{@spell thaumaturgy}"
+					],
+					"daily": {
+						"2": [
+							"{@spell bless}",
+							"{@spell command}"
+						]
+					},
+					"ability": "wis",
+					"type": "spellcasting"
+				}
+			],
+			"action": [
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 20/60 ft., one target. {@h} 6 ({@dice 1d6 + 3} piercing damage, or 7 ({@damage 1d8 + 3}) piercing damage if used with two hands to make a melee attack."
+					]
+				}
+			],
+			"environment": [
+				"arctic",
+				"forest",
+				"grassland",
+				"hill",
+				"mountain",
+				"swamp",
+				"underdark"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/orc-eye-of-gruumsh.mp3"
+			},
+			"attachedItems": [
+				"spear|phb"
+			],
+			"traitTags": [
+				"Aggressive"
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"C",
+				"O"
+			],
+			"spellcastingTags": [
+				"CC"
+			],
+			"miscTags": [
+				"RW",
+				"MW",
+				"MLW",
+				"THW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MM/Orc Eye of Gruumsh.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"One of the strongest warriors of the Rustnail Orcs, Ugaro is a devout follower of Thum, and has been blessed with blood magics that strengthen others and give him foresight into the best course of action to take. Ugaro opposes a return to the rule of the Wild Mage, but is hesitant to speak without knowing the mind of Grist first. Ugaro is fierce, but fair."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e321524d-9746-4eef-856a-8aabb953de8e/d7vxaxj-656cbf6a-4709-4a32-be20-1d1ac9a6cbff.jpg/v1/fill/w_900,h_750,q_75,strp/orc_shaman_blood_power_by_benedickbana_d7vxaxj-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzUwIiwicGF0aCI6IlwvZlwvZTMyMTUyNGQtOTc0Ni00ZWVmLTg1NmEtOGFhYmI5NTNkZThlXC9kN3Z4YXhqLTY1NmNiZjZhLTQ3MDktNGEzMi1iZTIwLTFkMWFjOWE2Y2JmZi5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.jBIuhOLjlDqEQ80DX3OgTt_Lp5TprGPHiOYBP6sOkgk"
+						}
+					}
+				]
+			},
+			"level": 2,
+			"save": {
+				"con": "+5"
+			},
+			"reaction": [
+				{
+					"name": "Martial Role - Defender",
+					"entries": [
+						"Ugaro can use his reaction to impose disadvantage on the attack roll of a creature within 5 feet of him whose target isn't Ugaro, provided Ugaro can see the attacker."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Second Wind (1/rest)",
+					"entries": [
+						"Ugaro can use a bonus action on his turn to regain hit points equal to {@dice 1d10} + his level in this class. Once he uses this feature, he must finish a short or long rest before he can use it again."
+					]
+				},
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, Ugaro can move up to his speed toward a hostile creature that he can see."
+					]
+				}
+			],
+			"isNpc": true,
+			"cr": "2",
+			"damageTags": [
+				"P"
+			],
+			"savingThrowForcedSpell": [
+				"wisdom"
+			]
 		}
 	],
 	"item": [
