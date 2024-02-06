@@ -970,9 +970,6 @@
 			"skill": {
 				"perception": "+5"
 			},
-			"senses": [
-				"blindsight 60 ft."
-			],
 			"passive": 15,
 			"cr": "3",
 			"trait": [
@@ -1027,9 +1024,6 @@
 			},
 			"traitTags": [
 				"Keen Senses"
-			],
-			"senseTags": [
-				"B"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -1091,13 +1085,29 @@
 				{
 					"name": "Orc-Fed Mutant Bear",
 					"entries": [
-						"A mutant bear that has consumed orcs may have the following traits:",
+						"A mutant bear that has consumed {@creature orc|MM|orcs} may have the following traits:",
 						"{@b {@i Relentless Endurance (1/day).}} When the mutant bear is reduced to 0 hit points but not killed outright, it instead drops to 1 hit point instead.",
 						"{@b {@i Aggressive.}} As a bonus action, the mutant bear can move up to its speed toward a hostile creature that it can see.",
 						"{@b {@i Ability Score Increase.}} The mutant bear's Strength score or Constitution score increase by 2."
 					],
 					"type": "variant"
+				},
+				{
+					"name": "Bear-Owl",
+					"entries": [
+						"A mutant bear that has consumed a {@creature giant owl} may have the following traits:",
+						"{@b {@i Wings.}} The mutant bear sprouts two wings from its back, granting it a fly speed of 60 ft.",
+						"{@b {@i Flyby.}} The mutant bear doesn't provoke opportunity attacks when it flies out of an enemy's reach.",
+						"{@b {@i Keen Perception.}} The mutant bear now makes all Wisdom ({@skill Perception}) with advantage. Additionally, the mutant bear's {@sense darkvision} now extends to 120 ft."
+					],
+					"type": "variant"
 				}
+			],
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"D"
 			],
 			"damageTags": [
 				"P",
