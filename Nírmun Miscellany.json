@@ -1877,7 +1877,7 @@
 			"type": {
 				"type": "humanoid",
 				"tags": [
-					"any race"
+					"dragonborn"
 				]
 			},
 			"alignment": [
@@ -1927,7 +1927,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Gor is an 5th-level spellcaster. Gor's spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Gor has the following paladin spells prepared:"
+						"Gor is a 5th-level spellcaster. Gor's spellcasting ability is Charisma (spell save {@dc 14}, {@hit 6} to hit with spell attacks). Gor has the following paladin spells prepared:"
 					],
 					"spells": {
 						"1": {
@@ -1959,7 +1959,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Gor attacks twice with his greatsword, he can replace one greatsword attack with a breath weapon attack"
+						"Gor attacks twice with his greatsword, he can replace one greatsword attack with a breath weapon attack."
 					]
 				},
 				{
