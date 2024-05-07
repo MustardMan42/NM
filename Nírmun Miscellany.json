@@ -2399,6 +2399,350 @@
 			"savingThrowForced": [
 				"constitution"
 			]
+		},
+		{
+			"name": "Allosaurus (Celestial Infused)",
+			"group": [
+				"Dinosaurs"
+			],
+			"source": "NírmunMiscellany",
+			"page": 15,
+			"basicRules": true,
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 51,
+				"formula": "6d10 + 18"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 19,
+			"dex": 13,
+			"con": 17,
+			"int": 2,
+			"wis": 12,
+			"cha": 5,
+			"skill": {
+				"perception": "+5"
+			},
+			"passive": 15,
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Pounce",
+					"entries": [
+						"If the allosaurus moves at least 30 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the allosaurus can make one bite attack against it as a bonus action."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"grassland"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/allosaurus.mp3"
+			},
+			"traitTags": [
+				"Pounce"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"token": {
+				"name": "Allosaurus",
+				"source": "MM"
+			},
+			"fluff": {
+				"name": "Allosaurus",
+				"source": "MM",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"The allosaurus is a predator possessing great size, strength, and speed. It can run down almost any prey over open ground, pouncing to pull creatures down with its wicked claws.",
+									{
+										"type": "entries",
+										"name": "Dinosaurs",
+										"entries": [
+											"Dinosaurs, or behemoths, are among the oldest reptiles in the world. Predatory dinosaurs are savage, territorial hunters. Herbivorous dinosaurs are less aggressive, but they might attack to defend their young, or if startled or harassed.",
+											"Dinosaurs come in many sizes and shapes. Larger varieties often have drab coloration, while smaller dinosaurs have colorful markings akin to birds. Dinosaurs roam rugged and isolated areas that humanoids seldom visit, including remote mountain valleys, inaccessible plateaus, tropical islands, and deep fens."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Dinosaurs.webp"
+						}
+					}
+				]
+			},
+			"bonus": [
+				{
+					"name": "Radiant Soul (1/day)",
+					"entries": [
+						"Two luminous, spectral wings sprout from the allosaurus' back temporarily. For 1 minute, it has a flying speed equal to its walking speed, and once on each of its turns, it can deal extra radiant damage to one target when the allosaurus deals damage to it with an attack. The extra damage equals its proficiency bonus (2)."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"strength"
+			]
+		},
+		{
+			"name": "Wyndham the Wild",
+			"source": "NírmunMiscellany",
+			"page": 16,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				12,
+				{
+					"ac": 15,
+					"condition": "with {@spell mage armor}",
+					"braces": true
+				}
+			],
+			"hp": {
+				"average": 49,
+				"formula": "11d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 14,
+			"con": 11,
+			"int": 18,
+			"wis": 14,
+			"cha": 11,
+			"save": {
+				"int": "+7",
+				"wis": "+5"
+			},
+			"skill": {
+				"arcana": "+7",
+				"history": "+7"
+			},
+			"passive": 12,
+			"languages": [
+				"any four languages"
+			],
+			"cr": "5",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The Wild Mage casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 15}):"
+					],
+					"will": [
+						"{@spell light}",
+						"{@spell message}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell fireball}",
+							"{@spell hold person}",
+							"{@spell invisibility}",
+							"{@spell mage armor}",
+							"{@spell polymorph}",
+							"{@spell slow}"
+						],
+						"1e": [
+							"{@spell telekinesis}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Transmuter's Stone",
+					"entries": [
+						"The Wild Mage carries a magic stone he crafted. The stone grants him one of the following benefits while bearing the stone; the Wild Mage chooses the benefit at the end of each long rest:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Darkvision",
+									"entry": "The Wild Mage has {@sense darkvision} out to a range of 60 feet."
+								},
+								{
+									"type": "item",
+									"name": "Resilience",
+									"entry": "The Wild Mage has proficiency in Constitution saving throws. "
+								},
+								{
+									"type": "item",
+									"name": "Resistance",
+									"entry": "Resistance. The Wild Mage has resistance to acid, cold, fire, lightning, or thunder damage (transmuter's choice whenever choosing this benefit)."
+								},
+								{
+									"type": "item",
+									"name": "Speed",
+									"entry": "The Wild Mage's walking speed is increased by 10 feet."
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Wyndham the Wild is attuned to a {@item | NM |Dead Man's Trigger}, set to activate a teleport circle underneath his zoo."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The Wild Mage makes three Arcane Burst attacks."
+					]
+				},
+				{
+					"name": "Arcane Burst",
+					"entries": [
+						"{@atk ms,rs} {@hit 6} to hit, reach 5 ft. or range 120 ft., one target. {@h}19 ({@damage 3d10 + 3}) acid damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Transmute {@recharge 4}",
+					"entries": [
+						"The Wild Mage casts {@spell alter self} or changes the benefit of Transmuter's Stone if bearing the stone."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/transmuter.mp3"
+			},
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"conditionInflictSpell": [
+				"restrained"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"token": {
+				"name": "Transmuter Wizard",
+				"source": "MPMM"
+			},
+			"fluff": {
+				"name": "Transmuter Wizard",
+				"source": "MPMM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Transmuter Wizard.webp"
+						},
+						"credit": "Pindurski"
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Transmuters are masters at transforming physical forms. They typically view magical transmutation as a path to riches, enlightenment, or apotheosis."
+						]
+					},
+					{
+						"type": "section",
+						"name": "Wizards",
+						"entries": [
+							"Wizards pursue magical power through the study of arcane texts. Some travel the world searching for esoteric tomes while others train lesser wizards or collaborate with colleagues to create new spells."
+						]
+					}
+				]
+			},
+			"isNpc": true,
+			"shortName": "The Wild Mage",
+			"isNamedCreature": true,
+			"damageTags": [
+				"A"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"wisdom"
+			]
 		}
 	],
 	"item": [
@@ -2564,6 +2908,59 @@
 				"{@i This smooth, coin sized marble is embedded into a leather wrap that fits around a humanoid hand, so that the marble is opposite the palm. The marble has a black center obscured by wisps of fog that move over the surface.}",
 				"In the presence of sustained bright light, the shard activates and the marble emits a sphere of magical darkness that extends one inch beyond the marble’s radius. Mothfolk utilize these shards to maintain their focus when they venture forth from the Duskleaf forest.",
 				"Said to have been hewn from a star that fell to earth, shards of the Dark Star are seen as ill omens, especially by the worshippers of {@deity Solos|Nírmun|NírmunMiscellany}."
+			]
+		},
+		{
+			"name": "The Wild Mage's Catalyst",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "rare",
+			"weight": 0.5,
+			"poison": true,
+			"poisonTypes": [
+				"injury"
+			],
+			"tier": "major",
+			"entries": [
+				"{@i This glass syringe is filled with a red, bubbling liquid. A thick iron needle extends from the syringe, and a faint odor of copper is detectable when the syringe is applied. The glass of the syringe is imprinted with “WW.”}",
+				"The catalyst can be administered to a willing creature as an action, or to an unwilling creature through an improvised weapon attack against the target’s AC. On a hit, the target is subjected to the poison.",
+				"A creature subjected to this poison must succeed on a DC 15 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. The creature also suffers the following effects:",
+				{
+					"type": "list",
+					"style": "list-no-bullets",
+					"items": [
+						"The creature’s body is destabilized and able to accept infusions from other creatures",
+						"If the creature does not receive a powerful magical healing within 24 hours, the creature’s body will continue to destabilize, adopting new traits and features unchecked until the resulting abomination becomes unsustainable and dies."
+					]
+				}
+			]
+		},
+		{
+			"name": "Infusion Syringe",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "rare",
+			"tier": "minor",
+			"wondrous": true,
+			"weight": 0.5,
+			"entries": [
+				"{@i This glass syringe is used to introduce biological material into a creature that has been destabilized by the {@item The Wild Mage's Catalyst|NírmunMiscellany}. A thick iron needle extends from the syringe, and the glass of the syringe is imprinted with the following phrase in elvish: “From this vessel, power flows. From this cup, unto salvation.”}",
+				"An infusion can be gathered from or administered to a willing creature as an action, or to an unwilling creature through an improvised weapon attack against the target’s AC. On a hit, the target takes 1 piercing damage and their destabilized body absorbs the infusion."
+			]
+		},
+		{
+			"name": "Dead Man’s Trigger",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "rare",
+			"tier": "major",
+			"wondrous": true,
+			"reqAttune": true,
+			"entries": [
+				"{@i This slim leather strip has a purple gem that glows in tandem with the wearer’s heartbeat.}",
+				"The Dead Man’s Trigger stores spells cast into it by the attuner, holding them until the attunement is ended. The trigger can store up to 5 levels worth of spells at a time. The attuner can cast a spell of 1st through 5th level into the trigger by touching it as the spell is cast. The spell has no effect, other than to be stored in the trigger. If the trigger can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
+				"When the attunement is ended, any spells stored in the trigger are released. The spells use the spell save DC, spell attack bonus, and spellcasting ability of the attuner. The attuner can use a short rest to end attunement to the trigger without setting it off.",
+				"{@b {@i Attunement.}} A creature's attunement to an item ends if the creature no longer satisfies the prerequisites for attunement, if the item has been more than 100 feet away for at least 24 hours, if the creature dies, or if another creature attunes to the item. A creature can also voluntarily end attunement by spending another short rest focused on the item, unless the item is cursed."
 			]
 		}
 	]
