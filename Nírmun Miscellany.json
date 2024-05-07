@@ -2650,7 +2650,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Wyndham the Wild is attuned to a {@item | NM |Dead Man's Trigger}, set to activate a teleport circle underneath his zoo."
+						"Wyndham the Wild is attuned to a {@item Dead Man's Trigger|NírmunMiscellany}, set to activate a teleport circle underneath his zoo."
 					]
 				}
 			],
@@ -2949,7 +2949,7 @@
 			]
 		},
 		{
-			"name": "Dead Man’s Trigger",
+			"name": "Dead Man's Trigger",
 			"source": "NírmunMiscellany",
 			"page": 0,
 			"rarity": "rare",
@@ -2958,7 +2958,7 @@
 			"reqAttune": true,
 			"entries": [
 				"{@i This slim leather strip has a purple gem that glows in tandem with the wearer’s heartbeat.}",
-				"The Dead Man’s Trigger stores spells cast into it by the attuner, holding them until the attunement is ended. The trigger can store up to 5 levels worth of spells at a time. The attuner can cast a spell of 1st through 5th level into the trigger by touching it as the spell is cast. The spell has no effect, other than to be stored in the trigger. If the trigger can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
+				"The Dead Man's Trigger stores spells cast into it by the attuner, holding them until the attunement is ended. The trigger can store up to 5 levels worth of spells at a time. The attuner can cast a spell of 1st through 5th level into the trigger by touching it as the spell is cast. The spell has no effect, other than to be stored in the trigger. If the trigger can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
 				"When the attunement is ended, any spells stored in the trigger are released. The spells use the spell save DC, spell attack bonus, and spellcasting ability of the attuner. The attuner can use a short rest to end attunement to the trigger without setting it off.",
 				"{@b {@i Attunement.}} A creature's attunement to an item ends if the creature no longer satisfies the prerequisites for attunement, if the item has been more than 100 feet away for at least 24 hours, if the creature dies, or if another creature attunes to the item. A creature can also voluntarily end attunement by spending another short rest focused on the item, unless the item is cursed."
 			]
