@@ -3153,6 +3153,7 @@
 			"ammunition": true,
 			"crossbow": true,
 			"weapon": true,
+			"baseItem": "hand crossbow | PHB",
 			"ammoType": "crossbow bolt|PHB",
 			"weaponCategory": "martial",
 			"range": "30/120",
@@ -3160,7 +3161,7 @@
 			"dmg1": "1d6",
 			"dmgType": "P",
 			"entries": [
-				"This hand crossbow has been heavily modified to reduce time spent loading. Two laths (bows) have been attached to a single frame, and the two bowstrings joined to the rotating draw mechanism. The crossbow features a dual trigger, and is loaded via a specialized cartridge that contains 4 bolts.",
+				"{@i This hand crossbow has been heavily modified to reduce time spent loading. Two laths (bows) have been attached to a single frame, and the two bowstrings joined to the rotating draw mechanism. The crossbow features a dual trigger, and is loaded via a specialized cartridge that contains 4 bolts.}",
 				"Firing the hand crossbow uses the attack action, the crossbow can be fired more than once per turn using extra attack. The dual-action hand crossbow can be fired 4 times before a bonus action is needed to load a new cartridge."
 			]
 		},
