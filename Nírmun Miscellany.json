@@ -3243,11 +3243,16 @@
 			]
 		},
 		{
-			"name": "Necromancer Cleric",
+			"name": "Goblin Necromancer",
 			"size": [
-				"M"
+				"S"
 			],
-			"type": "humanoid",
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
 			"source": "NírmunMiscellany",
 			"alignment": [
 				"N",
@@ -3257,7 +3262,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item scale mail|phb}"
+						"{@item chain shirt|phb}"
 					]
 				}
 			],
@@ -3269,7 +3274,7 @@
 				"walk": 30
 			},
 			"str": 10,
-			"dex": 12,
+			"dex": 14,
 			"con": 13,
 			"int": 12,
 			"wis": 16,
@@ -3284,20 +3289,28 @@
 				"C"
 			],
 			"save": {
-				"con": "+3",
-				"wis": "+5"
+				"wis": "+5",
+				"dex": "+4"
 			},
 			"skill": {
 				"religion": "+3",
-				"perception": "+5"
+				"perception": "+5",
+				"stealth": "+4"
 			},
 			"action": [
 				{
 					"name": "Spellcasting",
 					"entries": [
-						"The necromancer casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}):",
+						"The necromancer casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):",
 						"At Will: {@spell dancing lights}, {@spell infestation|XGE}, {@spell toll the dead|XGE}",
-						"1/day each: {@spell inflict wounds} (at 2nd level), {@spell false life} (at 2nd level)"
+						"2/day: {@spell inflict wounds} ",
+						"1/day: {@spell false life} (as a 3rd-level spell), the goblin gains 16 ({@dice 14 + 1d4}) temporary hit points"
+					]
+				},
+				{
+					"name": "Staff",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage if used with both hands."
 					]
 				}
 			],
@@ -3316,6 +3329,20 @@
 			"savingThrowForcedSpell": [
 				"constitution",
 				"wisdom"
+			],
+			"trait": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin necromancer can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
 			]
 		},
 		{
@@ -3340,8 +3367,8 @@
 				13
 			],
 			"hp": {
-				"formula": "4d4 + 4",
-				"average": 14
+				"formula": "2d4 + 2",
+				"average": 7
 			},
 			"speed": {
 				"walk": 0,
@@ -3630,6 +3657,115 @@
 			"savingThrowForced": [
 				"strength"
 			]
+		},
+		{
+			"name": "Goblin Necromancer",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"source": "NírmunMiscellany",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 6",
+				"average": 33
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 13,
+			"int": 12,
+			"wis": 16,
+			"cha": 11,
+			"passive": 15,
+			"cr": "2",
+			"page": 21,
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"wis": "+5",
+				"dex": "+4"
+			},
+			"skill": {
+				"religion": "+3",
+				"perception": "+5",
+				"stealth": "+4"
+			},
+			"action": [
+				{
+					"name": "Spellcasting",
+					"entries": [
+						"The necromancer casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):",
+						"At Will: {@spell dancing lights}, {@spell infestation|XGE}, {@spell toll the dead|XGE}",
+						"2/day: {@spell inflict wounds} ",
+						"1/day: {@spell false life} (as a 3rd-level spell), the goblin gains 16 ({@dice 14 + 1d4}) temporary hit points"
+					]
+				},
+				{
+					"name": "Staff",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage if used with both hands."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cast Sanctuary (2/day)",
+					"entries": [
+						"The necromancer casts {@spell sanctuary} targeting themself. The necromancer cannot cast another leveled spell on the same turn that they cast {@spell sanctuary}."
+					]
+				}
+			],
+			"damageTagsSpell": [
+				"I",
+				"N"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"wisdom"
+			],
+			"trait": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin necromancer can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"The goblin necromancer wields the {@item Chum-Scraper|NírmunMiscellany}, and can gain hit points if he kills a creature with a leveled necromany spell."
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"damageTags": [
+				"B"
+			]
 		}
 	],
 	"item": [
@@ -3849,6 +3985,69 @@
 				"The Dead Man's Trigger stores spells cast into it by the attuner, holding them until the attunement is ended. The trigger can store up to 5 levels worth of spells at a time. The attuner can cast a spell of 1st through 5th level into the trigger by touching it as the spell is cast. The spell has no effect, other than to be stored in the trigger. If the trigger can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
 				"When the attunement is ended, any spells stored in the trigger are released. The spells use the spell save DC, spell attack bonus, and spellcasting ability of the attuner. The attuner can use a short rest to end attunement to the trigger without setting it off.",
 				"{@b {@i Attunement.}} A creature's attunement to an item ends if the creature no longer satisfies the prerequisites for attunement, if the item has been more than 100 feet away for at least 24 hours, if the creature dies, or if another creature attunes to the item. A creature can also voluntarily end attunement by spending another short rest focused on the item, unless the item is cursed."
+			]
+		},
+		{
+			"name": "Captain's Sword",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"tier": "major",
+			"type": "M",
+			"bonusWeaponDamage": "+1",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"L"
+			],
+			"sword": true,
+			"weapon": true,
+			"entries": [
+				"{@i This cutlass, pried from the cold dead hands of its previous owner, is perpetually cold to the touch.}",
+				"On a hit, this sword deals an extra 1 cold damage."
+			]
+		},
+		{
+			"name": "Scylla’s Eye",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"focus": true,
+			"reqAttune": true,
+			"tier": "major",
+			"type": "SCF",
+			"charges": 2,
+			"recharge": "dawn",
+			"weight": 1,
+			"entries": [
+				"{@i This glass-topped case holds an eyeball the size of a fist. The eye floats in a viscous liquid and sometimes spins on its own to gaze directly at a nearby creature.}",
+				"{@i {@b Lightning Redirection. }} The Scylla’s Eye has two charges. While you are holding the Scylla’s Eye and take lightning damage, you can use your reaction to expend a charge and reduce the damage by 1d8. The energy is stored in the Eye, and before the end of your next turn you can release the energy to deal additional lightning damage on a damage roll from a weapon or spell attack. The additional damage is equal to the damage you reduced. The Eye regains all expended charges daily at dawn."
+			]
+		},
+		{
+			"name": "Chum-Scraper",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"type": "SCF",
+			"focus": true,
+			"reqAttune": true,
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 4,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"staff": true,
+			"entries": [
+				"{@i This staff is carved from a black wood with thorns curving up around a shark’s skull.}",
+				"{@i {@b Grim Harvest. }} While holding the Chum-Scraper, once per turn when you kill a creature with a necromancy spell of 1st level or higher, you regain hit points equal to twice the spell's level. You don't gain this benefit for killing constructs or undead."
 			]
 		}
 	]
