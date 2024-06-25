@@ -3994,14 +3994,15 @@
 			"rarity": "uncommon",
 			"tier": "major",
 			"type": "M",
+			"baseItem": "longsword|PHB",
 			"bonusWeaponDamage": "+1",
 			"weight": 2,
 			"weaponCategory": "martial",
-			"dmg1": "1d6",
+			"dmg1": "1d8",
+			"dmg2": "1d10",
 			"dmgType": "S",
 			"property": [
-				"F",
-				"L"
+				"V"
 			],
 			"sword": true,
 			"weapon": true,
@@ -4034,6 +4035,7 @@
 			"type": "SCF",
 			"focus": true,
 			"reqAttune": true,
+			"baseItem": "staff|PHB",
 			"tier": "major",
 			"rarity": "uncommon",
 			"weight": 4,
@@ -4048,6 +4050,18 @@
 			"entries": [
 				"{@i This staff is carved from a black wood with thorns curving up around a shark’s skull.}",
 				"{@i {@b Grim Harvest. }} While holding the Chum-Scraper, once per turn when you kill a creature with a necromancy spell of 1st level or higher, you regain hit points equal to twice the spell's level. You don't gain this benefit for killing constructs or undead."
+			]
+		},
+		{
+			"name": "Figurine of Spatial Anchoring",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"tier": "minor",
+			"wondrous": true,
+			"entries": [
+				"{@i This small statue depicts a housecat with small green emeralds for eyes. Occasionally the statue vibrates similar to a cat’s purr.}",
+				"This figurine serves as an anchor for the spatially challenged. A drop of the creature’s blood is embedded in the heart of the figurine, and encased in a core of displacer beast claw."
 			]
 		}
 	]
