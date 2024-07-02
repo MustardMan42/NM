@@ -1,0 +1,43 @@
+{
+	"fileType": "bestiary-sublist",
+	"siteVersion": "1.208.0",
+	"name": "Necromancer Battle",
+	"saveId": "e4e8ca5b-b967-4cd1-aa70-461e62e897c1",
+	"items": [
+		{
+			"h": "goblin%20necromancer_n%c3%adrmunmiscellany",
+			"c": 1
+		},
+		{
+			"h": "swarm%20of%20skulls_n%c3%adrmunmiscellany",
+			"c": 1
+		},
+		{
+			"h": "makeshift%20minotaur%20skeleton_n%c3%adrmunmiscellany",
+			"c": 1
+		},
+		{
+			"h": "goblin%20skeleton_n%c3%adrmunmiscellany",
+			"c": 1
+		}
+	],
+	"sources": [
+		"NírmunMiscellany"
+	],
+	"playersSimple": [
+		{
+			"count": 4,
+			"level": 1
+		}
+	],
+	"isAdvanced": false,
+	"colsExtraAdvanced": [],
+	"playersAdvanced": [
+		{
+			"name": "",
+			"level": 1,
+			"extras": [],
+			"extraCols": []
+		}
+	]
+}
