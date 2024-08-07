@@ -3243,6 +3243,109 @@
 			]
 		},
 		{
+			"name": "Goblin Necromancer",
+			"size": [
+				"S"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goblinoid"
+				]
+			},
+			"source": "NírmunMiscellany",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "6d8 + 6",
+				"average": 33
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 13,
+			"int": 12,
+			"wis": 16,
+			"cha": 11,
+			"passive": 15,
+			"cr": "2",
+			"page": 21,
+			"languages": [
+				"Common"
+			],
+			"languageTags": [
+				"C"
+			],
+			"save": {
+				"wis": "+5",
+				"dex": "+4"
+			},
+			"skill": {
+				"religion": "+3",
+				"perception": "+5",
+				"stealth": "+4"
+			},
+			"action": [
+				{
+					"name": "Spellcasting",
+					"entries": [
+						"The necromancer casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):",
+						"At Will: {@spell dancing lights}, {@spell infestation|XGE}, {@spell toll the dead|XGE}",
+						"2/day: {@spell inflict wounds} ",
+						"1/day: {@spell false life} (as a 3rd-level spell), the goblin gains 16 ({@dice 14 + 1d4}) temporary hit points"
+					]
+				},
+				{
+					"name": "Staff",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage if used with both hands."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Cast Sanctuary (2/day)",
+					"entries": [
+						"The necromancer casts {@spell sanctuary} targeting themself. The necromancer cannot cast another leveled spell on the same turn that they cast {@spell sanctuary}."
+					]
+				}
+			],
+			"damageTagsSpell": [
+				"I",
+				"N"
+			],
+			"savingThrowForcedSpell": [
+				"constitution",
+				"wisdom"
+			],
+			"trait": [
+				{
+					"name": "Nimble Escape",
+					"entries": [
+						"The goblin necromancer can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
 			"name": "Flying Skull",
 			"source": "NírmunMiscellany",
 			"page": 22,
@@ -3663,186 +3766,6 @@
 			"damageTags": [
 				"B"
 			]
-		},
-		{
-			"name": "Makeshift Minotaur Skeleton",
-			"source": "NírmunMiscellany",
-			"page": 24,
-			"size": [
-				"L"
-			],
-			"type": "undead",
-			"alignment": [
-				"L",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 12,
-					"from": [
-						"natural armor"
-					]
-				}
-			],
-			"hp": {
-				"average": 58,
-				"formula": "9d10 + 9"
-			},
-			"speed": {
-				"walk": 40
-			},
-			"str": 18,
-			"dex": 11,
-			"con": 13,
-			"int": 6,
-			"wis": 8,
-			"cha": 5,
-			"senses": [
-				"darkvision 60 ft."
-			],
-			"passive": 9,
-			"immune": [
-				"poison"
-			],
-			"vulnerable": [
-				"bludgeoning"
-			],
-			"conditionImmune": [
-				"exhaustion",
-				"poisoned"
-			],
-			"languages": [
-				"understands Abyssal but can't speak"
-			],
-			"cr": "1",
-			"trait": [
-				{
-					"name": "Charge",
-					"entries": [
-						"If the skeleton moves at least 10 feet straight toward a target it gains advantage on a gore attack on the same turn. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be pushed up to 10 feet away and knocked {@condition prone}."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Greataxe",
-					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}10 ({@damage 1d12 + 4}) slashing damage."
-					]
-				},
-				{
-					"name": "Gore",
-					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}13 ({@damage 2d8 + 4}) piercing damage."
-					]
-				}
-			],
-			"environment": [
-				"underdark"
-			],
-			"soundClip": {
-				"type": "external",
-				"url": "https://5e.tools/audio/bestiary/minotaur-skeleton.mp3"
-			},
-			"attachedItems": [
-				"greataxe|phb"
-			],
-			"traitTags": [
-				"Charge"
-			],
-			"senseTags": [
-				"D"
-			],
-			"languageTags": [
-				"AB",
-				"CS"
-			],
-			"miscTags": [
-				"MW",
-				"MLW"
-			],
-			"conditionInflict": [
-				"prone"
-			],
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"token": {
-				"name": "Minotaur Skeleton",
-				"source": "MM"
-			},
-			"fluff": {
-				"name": "Minotaur Skeleton",
-				"source": "MM",
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MM/Minotaur Skeleton.webp"
-						}
-					}
-				],
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							{
-								"type": "entries",
-								"entries": [
-									"Skeletons arise when animated by dark magic. They heed the summons of spellcasters who call them from their stony tombs and ancient battlefields, or rise of their own accord in places saturated with death and loss, awakened by stirrings of necromantic energy or the presence of corrupting evil.",
-									{
-										"name": "Animated Dead",
-										"type": "entries",
-										"entries": [
-											"Whatever sinister force awakens a skeleton infuses its bones with a dark vitality, adhering joint to joint and reassembling dismantled limbs. This energy motivates a skeleton to move and think in a rudimentary fashion, though only as a pale imitation of the way it behaved in life. An animated skeleton retains no connection to its past, although resurrecting a skeleton restores it body and soul, banishing the hateful undead spirit that empowers it.",
-											"While most skeletons are the animated remains of dead humans and other humanoids, skeletal undead can be created from the bones of other creatures besides humanoids, giving rise to a host of terrifying and unique forms."
-										]
-									},
-									{
-										"name": "Obedient Servants",
-										"type": "entries",
-										"entries": [
-											"Skeletons raised by spell are bound to the will of their creator. They follow orders to the letter, never questioning the tasks their masters give them, regardless of the consequences. Because of their literal interpretation of commands and unwavering obedience, skeletons adapt poorly to changing circumstances. They can't read, speak, emote, or communicate in any way except to nod, shake their heads, or point. Still, skeletons are able to accomplish a variety of relatively complex tasks.",
-											"A skeleton can fight with weapons and wear armor, can load and fire a catapult or trebuchet, scale a siege ladder, form a shield wall, or dump boiling oil. However, it must receive careful instructions explaining how such tasks are accomplished.",
-											"Although they lack the intellect they possessed in life, skeletons aren't mindless. Rather than break its limbs attempting to batter its way through an iron door, a skeleton tries the handle first. If that doesn't work, it searches for another way through or around the obstacle."
-										]
-									},
-									{
-										"name": "Habitual Behaviors",
-										"type": "entries",
-										"entries": [
-											"Independent skeletons temporarily or permanently free of a master's control sometimes pantomime actions from their past lives, their bones echoing the rote behaviors of their former living selves. The skeleton of a miner might lift a pick and start chipping away at stone walls. The skeleton of a guard might strike up a post at a random doorway. The skeleton of a dragon might lie down on a pile of treasure, while the skeleton of a horse crops grass it can't eat. Left alone in a ballroom, the skeletons of nobles might continue an eternally unfinished dance.",
-											"When skeletons encounter living creatures, the necromantic energy that drives them compels them to kill unless they are commanded by their masters to refrain from doing so. They attack without mercy and fight until destroyed, for skeletons possess little sense of self and even less sense of self-preservation."
-										]
-									},
-									{
-										"name": "Undead Nature",
-										"type": "entries",
-										"entries": [
-											"A skeleton doesn't require air, food, drink, or sleep."
-										]
-									}
-								]
-							}
-						]
-					}
-				]
-			},
-			"bonus": [
-				{
-					"name": "Nimble Escape",
-					"entries": [
-						"The makeshift minotaur skeleton can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
-					]
-				}
-			],
-			"damageTags": [
-				"P",
-				"S"
-			],
-			"savingThrowForced": [
-				"strength"
-			]
 		}
 	],
 	"item": [
@@ -4139,6 +4062,62 @@
 			"entries": [
 				"{@i This small statue depicts a housecat with small green emeralds for eyes. Occasionally the statue vibrates similar to a cat’s purr.}",
 				"This figurine serves as an anchor for the spatially challenged. A drop of the creature’s blood is embedded in the heart of the figurine, and encased in a core of displacer beast claw."
+			]
+		},
+		{
+			"name": "Goldwin Gauntlets Hexscroll Schematic",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"type": "OTH",
+			"rarity": "rare",
+			"tier": "major",
+			"weight": 5,
+			"entries": [
+				"{@i This six-paneled iron hexscroll contains a brief history of Basalt Goldwin’s quest to slay a {@creature hill giant} and collect its knuckle bones, which are an integral part of crafting the gauntlets. The remaining panels depict technical diagrams showing how to construct the gauntlets.}",
+				"Crafting the gauntlets takes 20 days, and requires the knuckle bones of a {@creature hill giant} and 500 gp worth of materials. Hiring a magical smith to craft the gauntlets adds a charge for labor (4gp per day)."
+			]
+		},
+		{
+			"name": "Vrimbalbrugh Core Hexscroll Schematic",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"type": "OTH",
+			"rarity": "rare",
+			"tier": "major",
+			"weight": 5,
+			"entries": [
+				"{@i This six-paneled iron hexscroll contains a lengthy history of Krug Thunderglare, who slew a {@creature kraken} on the high seas, drank two barrels of grog while fighting during the night of burning taverns, and once slew a goblin chief with a well placed belch. The scroll also indicates how to construct the core of Vrimbalbrugh, which powers the automaton in the center of Qua’Dim.}",
+				"Crafting the core to Vrimbalbrugh takes 30 days, and requires a captured {@creature living lightning bolt|ERLW} and 1,500 gp worth of materials. Hiring a magical smith to craft the core adds a charge for labor (4gp per day)."
+			]
+		},
+		{
+			"name": "Orb of Brown Mold",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "rare",
+			"tier": "major",
+			"wondrous": "true",
+			"weight": 1,
+			"entries": [
+				"{@i This glass orb, 5 inches in diameter, contains an aggressive colony of brown mold. The orb and its contents weigh 1 pound. The orb is cold to the touch, and shakes violently when close to a heat source.}",
+				"As an action, you can throw this orb up to 20 feet, shattering it on impact. The {@hazard brown mold} will expand to cover a 5-foot-square area initially. When a creature moves to within 5 feet of the mold for the first time on a turn or starts its turn there, it must make a {@dc 12} Constitution saving throw, taking 22 ({@dice 4d10}) cold damage on a failed save, or half as much damage on a successful one.",
+				"{@hazard Brown mold} is immune to fire, and any source of fire brought within 5 feet of a patch causes it to instantly expand outward in the direction of the fire, covering a 10-foot-square area (with the source of the fire at the center of that area). A patch of {@hazard brown mold} exposed to an effect that deals cold damage is instantly destroyed."
+			]
+		},
+		{
+			"name": "Peculiar Doll",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "artifact",
+			"tier": "major",
+			"wondrous": "true",
+			"reqAttune": "by a spellcaster",
+			"weight": 1,
+			"entries": [
+				"{@i This doll is well made, it depicts a tiefling girl with red skin, round lensed glasses, and black braids. The doll is holding a doll itself, but the miniature doll is not detailed.}",
+				"{@i C̸̬͎̟͈̆̎ŕ̵̥͙͝ȩ̶̘̮̜͊̔̽ā̷̱̪̥t̵̞̗̜̓u̷͕̥̣̗͂͠͠͝r̷̰͛̒e̴͍̟̟̾̓̉ ̴͇̥̟̂̿̋m̴͓̰̳̔̌͘͝a̴̬̙̫̩͌̍d̶̰͐̾͒e̶̢̡̝̘̒̋̉ ̴̩̞̽o̵̮̐͛f̶̠̤̊͒̋ ̸̧̤̺͈͒̓͌m̷̠̳͚̝̈́͛̑ḯ̷̹̔̏͊͜ṋ̸̠́̒̂͠d̴̲̓͛̾̌͜ ̶̯͐ā̴̭̽͒̈́n̴̗̗̪͐d̷̗̮͋̽ ̷̺̻͚́͆ṁ̵͉ų̴̺͙̌̾̐̀d̶̙̹̃͠,̶̖͐̍̈̕ ̶̦̣͛p̵̙̺̗̀͜a̷̬͕̎̏̚y̵̱̱̺̹̍͝ ̷̠̳̼̪̂̿̂͌a̷̢̎́ ̷͖͛̽͠ṫ̷̼̘̉r̸͓͇̮̠̀͗̎i̵̫̬̮̓ḇ̵̯̿̓̓ǘ̶̟̼̀̓̕t̴̝̲͕͗ȇ̴̬̼̍͝ ̸̞̆͠͝ẁ̸̪̰̞͚̈́̃i̷̥̦̣͗͂́ͅt̴͖̻͚͌͂͂͊ḫ̴̨̬͐̀͒͗ ̸͓̦͉̃͌̑y̷̮̳̙̏͜͝o̸̜̫̊u̵̫̬̰̓̀ͅr̴̛͎͐͗̂ ̴͈͕̈͛̂͝b̶͙͍̖͒̆̄̔l̸̢͇̱̱̐̀́̚o̶̱̭̪̓͝ǫ̶̤̪̜̊͒d̸̨̲̙̘͐̓͛.̶͖̘͎͚̎̊͠}",
+				"Once per day, as an action you can make a sacrifice of flesh and blood to the Peculiar Doll. Your current and maximum HP is reduced by five until you complete a long rest. Until you complete a long rest, you gain an additional spell slot of the highest level you can cast, and when you cast a spell using this spell slot it counts as a spell slot of one level higher.",
+				"Keep track of how many hit points you give to the doll, and alert your DM if/when you reach fifty."
 			]
 		}
 	]
