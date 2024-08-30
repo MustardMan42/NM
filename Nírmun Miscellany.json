@@ -4290,7 +4290,7 @@
 			"page": 0,
 			"rarity": "artifact",
 			"tier": "major",
-			"wondrous": "true",
+			"wondrous": true,
 			"reqAttune": "by a spellcaster",
 			"weight": 1,
 			"entries": [
@@ -4298,6 +4298,68 @@
 				"{@i C̸̬͎̟͈̆̎ŕ̵̥͙͝ȩ̶̘̮̜͊̔̽ā̷̱̪̥t̵̞̗̜̓u̷͕̥̣̗͂͠͠͝r̷̰͛̒e̴͍̟̟̾̓̉ ̴͇̥̟̂̿̋m̴͓̰̳̔̌͘͝a̴̬̙̫̩͌̍d̶̰͐̾͒e̶̢̡̝̘̒̋̉ ̴̩̞̽o̵̮̐͛f̶̠̤̊͒̋ ̸̧̤̺͈͒̓͌m̷̠̳͚̝̈́͛̑ḯ̷̹̔̏͊͜ṋ̸̠́̒̂͠d̴̲̓͛̾̌͜ ̶̯͐ā̴̭̽͒̈́n̴̗̗̪͐d̷̗̮͋̽ ̷̺̻͚́͆ṁ̵͉ų̴̺͙̌̾̐̀d̶̙̹̃͠,̶̖͐̍̈̕ ̶̦̣͛p̵̙̺̗̀͜a̷̬͕̎̏̚y̵̱̱̺̹̍͝ ̷̠̳̼̪̂̿̂͌a̷̢̎́ ̷͖͛̽͠ṫ̷̼̘̉r̸͓͇̮̠̀͗̎i̵̫̬̮̓ḇ̵̯̿̓̓ǘ̶̟̼̀̓̕t̴̝̲͕͗ȇ̴̬̼̍͝ ̸̞̆͠͝ẁ̸̪̰̞͚̈́̃i̷̥̦̣͗͂́ͅt̴͖̻͚͌͂͂͊ḫ̴̨̬͐̀͒͗ ̸͓̦͉̃͌̑y̷̮̳̙̏͜͝o̸̜̫̊u̵̫̬̰̓̀ͅr̴̛͎͐͗̂ ̴͈͕̈͛̂͝b̶͙͍̖͒̆̄̔l̸̢͇̱̱̐̀́̚o̶̱̭̪̓͝ǫ̶̤̪̜̊͒d̸̨̲̙̘͐̓͛.̶͖̘͎͚̎̊͠}",
 				"Once per day, as an action you can make a sacrifice of flesh and blood to the Peculiar Doll. Your current and maximum HP is reduced by five until you complete a long rest. Until you complete a long rest, you gain an additional spell slot of the highest level you can cast, and when you cast a spell using this spell slot it counts as a spell slot of one level higher.",
 				"Keep track of how many hit points you give to the doll, and alert your DM if/when you reach fifty."
+			]
+		},
+		{
+			"name": "Rend",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "uncommon",
+			"tier": "major",
+			"type": "M",
+			"reqAttune": true,
+			"baseItem": "longsword|PHB",
+			"bonusWeaponDamage": "+1",
+			"weight": 2,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"property": [
+				"V"
+			],
+			"sword": true,
+			"weapon": true,
+			"sentient": true,
+			"entries": [
+				"{@i This longsword has a riddle carved into its hilt in ancient dwarvish.}",
+				"You have a +1 bonus to attack and damage rolls made with this magic weapon.",
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						"Rend is a sentient, lawful good weapon with an Intelligence of 8, a Wisdom of 14, and a Charisma of 10. It has hearing and normal vision out to a range of 60 feet. It can read and understand Dwarvish. It can also speak Dwarvish, but only through the voice of its wielder, with whom the sword can communicate telepathically."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fungal Sprout Tattoo",
+			"source": "NírmunMiscellany",
+			"page": 0,
+			"rarity": "common",
+			"tier": "minor",
+			"reqAttune": true,
+			"baseItem": "illuminator's tattoo|TCE",
+			"wondrous": true,
+			"tattoo": true,
+			"entries": [
+				"{@i Produced by a special mushroom, this magic tattoo features a single white flower with four petals growing out of a fairy circle of red mushrooms.}",
+				{
+					"type": "entries",
+					"name": "Tattoo Attunement",
+					"entries": [
+						"To attune to this item, you hold the mushroom to your skin where you want the tattoo to appear, pressing the mushroom there throughout the attunement process. When the attunement is complete, the mushroom tendrils embed themselves below the skin and become the tattoo. If your attunement to the tattoo ends, the tattoo vanishes, and the mushroom reappears in your space."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Magical Scribing",
+					"entries": [
+						"While this tattoo is on your skin, you can write with your fingertip as if it were an ink pen that never runs out of ink.",
+						"As an action, you can touch a piece of writing up to one page in length and speak a creature's name. The writing becomes invisible to everyone other than you and the named creature for the next 24 hours. Either of you can dismiss the invisibility by touching the script (no action required). Once used, this action can't be used again until the next dawn."
+					]
+				}
 			]
 		}
 	]
