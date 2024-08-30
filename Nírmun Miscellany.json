@@ -4056,7 +4056,13 @@
 			"entries": [
 				"{@i Woven from threads that are soaked in the tragic history of one hundred orphans, this cloak is dark. The hood? Dark. The cape? Dark. The backstory? You guessed it.}",
 				"While the hood of this cloak is raised, your face always appears heavily obscured by darkness. Whether this cloak exudes the darkness or manipulates the lights in the area, is a mystery.",
-				"{@b {@i Curse. }} The darkness of the cloak goes both ways, and everything you look at is heavily obscured. Unless you have {@sense darkvision} or a similar feature, you are {@condition blinded} while the hood is up."
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"The darkness of the cloak goes both ways, and everything you look at is heavily obscured. Unless you have {@sense darkvision} or a similar feature, you are {@condition blinded} while the hood is up."
+					]
+				}
 			]
 		},
 		{
@@ -4085,8 +4091,20 @@
 			"entries": [
 				"{@i This single bladed shortsword is made of a blackened mottled metal. The handle is composed of a length of string wrapped many times around the end to create a sturdy grip. A slim loop of iron serves as a guard.}",
 				"Fate-Splitter can hold 4 charges. When the life of a creature is prematurely ended by this blade, it gains 1 charge.",
-				"{@b {@i Frayed Edge. (2 charges)}} As an action, you may expend two charges to cast the spell {@spell Bane|phb} without using any other material components or spell slots. This does require concentration.",
-				"{@b {@i Splitting the Weave. (4 charges)}} When you use Fate-Splitter as part of an attack on your turn, you may expend four charges to treat one attack roll as an automatic critical hit. You must decide this before making the roll."
+				{
+					"type": "entries",
+					"name": "Frayed Edge (2 charges)",
+					"entries": [
+						"As an action, you may expend two charges to cast the spell {@spell Bane|phb} without using any other material components or spell slots. This does require concentration."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Splitting the Weave (4 charges)",
+					"entries": [
+						"When you use Fate-Splitter as part of an attack on your turn, you may expend four charges to treat one attack roll as an automatic critical hit. You must decide this before making the roll."
+					]
+				}
 			]
 		},
 		{
@@ -4164,7 +4182,13 @@
 				"{@i This slim leather strip has a purple gem that glows in tandem with the wearer’s heartbeat.}",
 				"The Dead Man's Trigger stores spells cast into it by the attuner, holding them until the attunement is ended. The trigger can store up to 5 levels worth of spells at a time. The attuner can cast a spell of 1st through 5th level into the trigger by touching it as the spell is cast. The spell has no effect, other than to be stored in the trigger. If the trigger can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.",
 				"When the attunement is ended, any spells stored in the trigger are released. The spells use the spell save DC, spell attack bonus, and spellcasting ability of the attuner. The attuner can use a short rest to end attunement to the trigger without setting it off.",
-				"{@b {@i Attunement.}} A creature's attunement to an item ends if the creature no longer satisfies the prerequisites for attunement, if the item has been more than 100 feet away for at least 24 hours, if the creature dies, or if another creature attunes to the item. A creature can also voluntarily end attunement by spending another short rest focused on the item, unless the item is cursed."
+				{
+					"type": "entries",
+					"name": "Attunement",
+					"entries": [
+						"A creature's attunement to an item ends if the creature no longer satisfies the prerequisites for attunement, if the item has been more than 100 feet away for at least 24 hours, if the creature dies, or if another creature attunes to the item. A creature can also voluntarily end attunement by spending another short rest focused on the item, unless the item is cursed."
+					]
+				}
 			]
 		},
 		{
@@ -4205,7 +4229,13 @@
 			"weight": 1,
 			"entries": [
 				"{@i This glass-topped case holds an eyeball the size of a fist. The eye floats in a viscous liquid and sometimes spins on its own to gaze directly at a nearby creature.}",
-				"{@i {@b Lightning Redirection. }} The Scylla’s Eye has two charges. While you are holding the Scylla’s Eye and take lightning damage, you can use your reaction to expend a charge and reduce the damage by 1d8. The energy is stored in the Eye, and before the end of your next turn you can release the energy to deal additional lightning damage on a damage roll from a weapon or spell attack. The additional damage is equal to the damage you reduced. The Eye regains all expended charges daily at dawn."
+				{
+					"type": "entries",
+					"name": "Lightning Redirection",
+					"entries": [
+						"The Scylla’s Eye has two charges. The eye regains all expended charges daily at dawn. While you are holding it and take lightning damage, you can use your reaction and expend 1 charge to reduce the damage by {@dice 1d8}. The energy is stored in the eye, and before the end of your next turn you can release the stored energy, dealing additional lightning damage on a damage roll from a weapon or spell attack. The additional damage is equal to the damage you reduced."
+					]
+				}
 			]
 		},
 		{
@@ -4229,7 +4259,13 @@
 			"staff": true,
 			"entries": [
 				"{@i This staff is carved from a black wood with thorns curving up around a shark’s skull.}",
-				"{@i {@b Grim Harvest. }} While holding the Chum-Scraper, once per turn when you kill a creature with a necromancy spell of 1st level or higher, you regain hit points equal to twice the spell's level. You don't gain this benefit for killing constructs or undead."
+				{
+					"type": "entries",
+					"name": "Grim Harvest",
+					"entries": [
+						"While holding the Chum-Scraper, once per turn when you kill a creature with a necromancy spell of 1st level or higher, you regain hit points equal to twice the spell's level. You don't gain this benefit for killing constructs or undead."
+					]
+				}
 			]
 		},
 		{
