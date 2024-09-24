@@ -1,0 +1,44 @@
+{
+	"fileType": "bestiary-sublist",
+	"siteVersion": "1.210.7",
+	"name": "Goblin Pirates",
+	"saveId": "f272060d-aa32-4e29-b282-f77b91b08b8f",
+	"items": [
+		{
+			"h": "goblin_mm",
+			"c": 6
+		},
+		{
+			"h": "goblin%20boss_mm",
+			"c": 1
+		},
+		{
+			"h": "hobgoblin%20iron%20shadow_mpmm",
+			"c": 1
+		},
+		{
+			"h": "hobgoblin_mm",
+			"c": 4
+		}
+	],
+	"sources": [
+		"MM",
+		"MPMM"
+	],
+	"playersSimple": [
+		{
+			"count": 4,
+			"level": 1
+		}
+	],
+	"isAdvanced": false,
+	"colsExtraAdvanced": [],
+	"playersAdvanced": [
+		{
+			"name": "",
+			"level": 1,
+			"extras": [],
+			"extraCols": []
+		}
+	]
+}
