@@ -2749,7 +2749,7 @@
 		{
 			"name": "Pip Babblelicht",
 			"source": "NírmunMiscellany",
-			"page": 16,
+			"page": 17,
 			"size": [
 				"S"
 			],
@@ -3659,115 +3659,6 @@
 			]
 		},
 		{
-			"name": "Goblin Necromancer",
-			"size": [
-				"S"
-			],
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"goblinoid"
-				]
-			},
-			"source": "NírmunMiscellany",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"{@item chain shirt|phb}"
-					]
-				}
-			],
-			"hp": {
-				"formula": "6d8 + 6",
-				"average": 33
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 10,
-			"dex": 14,
-			"con": 13,
-			"int": 12,
-			"wis": 16,
-			"cha": 11,
-			"passive": 15,
-			"cr": "2",
-			"page": 21,
-			"languages": [
-				"Common"
-			],
-			"languageTags": [
-				"C"
-			],
-			"save": {
-				"wis": "+5",
-				"dex": "+4"
-			},
-			"skill": {
-				"religion": "+3",
-				"perception": "+5",
-				"stealth": "+4"
-			},
-			"action": [
-				{
-					"name": "Spellcasting",
-					"entries": [
-						"The necromancer casts one of the following spells, using Wisdom as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):",
-						"At Will: {@spell dancing lights}, {@spell infestation|XGE}, {@spell toll the dead|XGE}",
-						"2/day: {@spell inflict wounds} ",
-						"1/day: {@spell false life} (as a 3rd-level spell), the goblin gains 16 ({@dice 14 + 1d4}) temporary hit points"
-					]
-				},
-				{
-					"name": "Staff",
-					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage, or 6 ({@damage 1d8 + 2}) bludgeoning damage if used with both hands."
-					]
-				}
-			],
-			"bonus": [
-				{
-					"name": "Cast Sanctuary (2/day)",
-					"entries": [
-						"The necromancer casts {@spell sanctuary} targeting themself. The necromancer cannot cast another leveled spell on the same turn that they cast {@spell sanctuary}."
-					]
-				}
-			],
-			"damageTagsSpell": [
-				"I",
-				"N"
-			],
-			"savingThrowForcedSpell": [
-				"constitution",
-				"wisdom"
-			],
-			"trait": [
-				{
-					"name": "Nimble Escape",
-					"entries": [
-						"The goblin necromancer can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
-					]
-				},
-				{
-					"name": "Special Equipment",
-					"entries": [
-						"The goblin necromancer wields the {@item Chum-Scraper|NírmunMiscellany}, and can gain hit points if he kills a creature with a leveled necromany spell."
-					]
-				}
-			],
-			"miscTags": [
-				"MW"
-			],
-			"damageTags": [
-				"B"
-			]
-		},
-		{
 			"name": "Makeshift Minotaur Skeleton",
 			"source": "NírmunMiscellany",
 			"page": 24,
@@ -3950,7 +3841,7 @@
 		{
 			"name": "Enormous Octopus",
 			"source": "NírmunMiscellany",
-			"page": 326,
+			"page": 25,
 			"size": [
 				"H"
 			],
