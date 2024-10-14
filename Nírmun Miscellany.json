@@ -3946,6 +3946,148 @@
 			"savingThrowForced": [
 				"strength"
 			]
+		},
+		{
+			"name": "Enormous Octopus",
+			"source": "NírmunMiscellany",
+			"page": 326,
+			"size": [
+				"H"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"formula": "12d10 + 12",
+				"average": 78
+			},
+			"speed": {
+				"walk": 10,
+				"swim": 60
+			},
+			"str": 18,
+			"dex": 16,
+			"con": 13,
+			"int": 4,
+			"wis": 10,
+			"cha": 4,
+			"skill": {
+				"perception": "+2",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft.",
+				"blindsight 20 ft. (underwater)"
+			],
+			"passive": 12,
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"While out of water, the enormous octopus can hold its breath for 1 hour."
+					]
+				},
+				{
+					"name": "Underwater Camouflage",
+					"entries": [
+						"The enormous octopus has advantage on Dexterity ({@skill Stealth}) checks made while underwater."
+					]
+				},
+				{
+					"name": "Water Breathing",
+					"entries": [
+						"The enormous octopus can breathe only underwater."
+					]
+				},
+				{
+					"name": "Legendary Resistance (1/Day)",
+					"entries": [
+						"If the enormous octopus fails a saving throw, it can choose to succeed instead."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The enormous octopus makes two Tentacles attack and uses Ink Cloud if it is available. The enormous octopus can replace one Tentacles attack with a Beak attack if has a creature {@condition grappled}."
+					]
+				},
+				{
+					"name": "Tentacles",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 15 ft., one target. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 16}). Until this grapple ends, the target is {@condition restrained}."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target {@condition grappled} by the enormous octopus. {@h}13 ({@damage 2d8 + 4}) piercing damage."
+					]
+				},
+				{
+					"name": "Ink Cloud (Recharges after a Short or Long Rest)",
+					"entries": [
+						"A 20-foot-radius cloud of ink extends all around the enormous octopus if it is underwater. The area is heavily obscured for 1 minute, although a significant current can disperse the ink. After releasing the ink, the enormous octopus can use the Dash action as a bonus action."
+					]
+				}
+			],
+			"environment": [
+				"underwater"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://2014.5e.tools/audio/bestiary/giant-octopus.mp3"
+			},
+			"traitTags": [
+				"Hold Breath",
+				"Legendary Resistances",
+				"Water Breathing"
+			],
+			"senseTags": [
+				"D",
+				"B"
+			],
+			"actionTags": [
+				"Multiattack",
+				"Tentacles"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"grappled",
+				"restrained"
+			],
+			"hasFluffImages": true,
+			"token": {
+				"name": "Giant Octopus",
+				"source": "MM"
+			},
+			"fluff": {
+				"name": "Giant Octopus",
+				"source": "MM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MM/Giant Octopus.webp"
+						}
+					}
+				]
+			},
+			"damageTags": [
+				"B",
+				"P"
+			]
 		}
 	],
 	"item": [
