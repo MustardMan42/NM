@@ -3979,6 +3979,152 @@
 				"B",
 				"P"
 			]
+		},
+		{
+			"name": "Sparkbinder",
+			"source": "NírmunMiscellany",
+			"page": 24,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"alignmentPrefix": "Typically ",
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item studded leather armor|PHB|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "7d8 + 14"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 14,
+			"int": 16,
+			"wis": 13,
+			"cha": 11,
+			"skill": {
+				"arcana": "+5",
+				"athletics": "+5"
+			},
+			"passive": 11,
+			"languages": [
+				"Common",
+				"Elvish"
+			],
+			"cr": "4",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The sparkbinder casts one of the following spells, using Intelligence as the spellcasting ability (spell save {@dc 13}):"
+					],
+					"will": [
+						"{@spell mage hand}",
+						"{@spell prestidigitation}"
+					],
+					"daily": {
+						"2e": [
+							"{@spell fireball}",
+							"{@spell fly}",
+							"{@spell fog cloud}",
+							"{@spell gust of wind}",
+							"{@spell lightning bolt}"
+						]
+					},
+					"ability": "int",
+					"type": "spellcasting"
+				}
+			],
+			"trait": [
+				{
+					"name": "Army Arcana",
+					"entries": [
+						"When the sparkbinder casts a spell that causes damage or that forces other creatures to make a saving throw, it can choose itself and any number of allies to be immune to the damage caused by the spell and to succeed on the required saving throw."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The sparkbinder makes two Harpoon or Devastating Bolt attacks."
+					]
+				},
+				{
+					"name": "Harpoon",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage, or 7 ({@damage 1d8 + 3}) piercing damage if used with two hands, plus 13 ({@damage 3d8}) lightning damage."
+					]
+				},
+				{
+					"name": "Devastating Bolt",
+					"entries": [
+						"{@atk rs} {@hit 5} to hit, range 60 ft., one target. {@h}21 ({@damage 4d8 + 3}) lightning damage, and the target is knocked {@condition prone}."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"urban",
+				"underwater"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E"
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"miscTags": [
+				"MW",
+				"RA"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					"Part of the elite fighting force of Glacehold, Sparkbinders fight with a harpoon that has a metal chain attached to it. Once the harpoon is embedded in their foe, the Sparkbinder begins to cast lightning spells through the chain."
+				]
+			},
+			"token": {
+				"name": "Guard",
+				"source": "MM"
+			},
+			"damageTags": [
+				"L",
+				"P"
+			],
+			"damageTagsSpell": [
+				"F",
+				"L"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"strength"
+			]
 		}
 	],
 	"item": [
