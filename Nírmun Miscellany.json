@@ -4286,7 +4286,12 @@
 				"N"
 			],
 			"ac": [
-				12
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|phb}"
+					]
+				}
 			],
 			"hp": {
 				"average": 27,
