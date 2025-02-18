@@ -4125,6 +4125,302 @@
 				"dexterity",
 				"strength"
 			]
+		},
+		{
+			"name": "Tiny",
+			"source": "NírmunMiscellany",
+			"page": 26,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"goliath"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 67,
+				"formula": "9d8 + 27"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 16,
+			"dex": 12,
+			"con": 17,
+			"int": 9,
+			"wis": 11,
+			"cha": 9,
+			"passive": 10,
+			"languages": [
+				"any one language (usually Common)"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of his turn, Tiny can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against him have advantage until the start of his next turn."
+					]
+				},
+				{
+					"name": "Regeneration (Half-Troll)",
+					"entries": [
+						"Tiny regains 5 hit points at the start of his turn. If Tiny takes acid or fire damage, this trait doesn't function at the start of Tiny's next turn. Tiny dies only if he starts his turn with 0 hit points and doesn't regenerate."
+					]
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"Tiny counts as one size larger when determining his carrying capacity and the weight he can push, drag, or lift."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Greataxe",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}9 ({@damage 1d12 + 3}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"coastal",
+				"mountain",
+				"hill",
+				"arctic",
+				"forest",
+				"desert"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://2014.5e.tools/audio/bestiary/berserker.mp3"
+			},
+			"attachedItems": [
+				"greataxe|phb"
+			],
+			"traitTags": [
+				"Beast of Burden",
+				"Reckless",
+				"Regeneration"
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"hasFluff": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Hailing from uncivilized lands, unpredictable berserkers come together in war parties and seek conflict wherever they can find it."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://2014.5e.tools/img/races/MPMM/Goliath.webp"
+						}
+					}
+				]
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"reaction": [
+				{
+					"name": "Stone's Endurance (Recharges after a Short or Long Rest)",
+					"entries": [
+						"When Tiny takes damage, he reduces the damage taken by 9 ({@dice 1d12 + 3})."
+					]
+				}
+			],
+			"token": {
+				"name": "Goliath",
+				"source": "MPMM"
+			},
+			"damageTags": [
+				"S"
+			]
+		},
+		{
+			"name": "Echo",
+			"source": "NírmunMiscellany",
+			"page": 25,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kenku"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 15,
+			"con": 10,
+			"int": 12,
+			"wis": 14,
+			"cha": 16,
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"investigation": "+5",
+				"perception": "+6",
+				"persuasion": "+5",
+				"sleight of hand": "+4",
+				"stealth": "+4"
+			},
+			"passive": 16,
+			"languages": [
+				"understands Auran and Common but speaks only through the use of his Mimicry trait"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"On each of his turns, Echo can use a bonus action to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Echo deals an extra 7 ({@damage 2d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Echo that isn't {@condition incapacitated} and Echo doesn't have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Mimicry (Kenku)",
+					"entries": [
+						"Echo can mimic simple sounds he has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 14} Wisdom (Insight) check."
+					]
+				},
+				{
+					"name": "Ambusher",
+					"entries": [
+						"Echo has advantage on attack rolls against any creature he has {@status surprised}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Echo makes two melee attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Hand Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 30/120 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"attachedItems": [
+				"hand crossbow|phb",
+				"shortsword|phb"
+			],
+			"traitTags": [
+				"Ambusher",
+				"Mimicry",
+				"Sneak Attack"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AU",
+				"C"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"RW",
+				"RNG"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									"Rulers, nobles, merchants, guildmasters, and other wealthy individuals use spies to gain the upper hand in a world of cutthroat politics. A spy is trained to secretly gather information. Loyal spies would rather die than divulge information that could compromise them or their employers."
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://2014.5e.tools/img/bestiary/MM/Kenku.webp"
+						}
+					}
+				]
+			},
+			"isNpc": true,
+			"isNamedCreature": true,
+			"token": {
+				"name": "Kenku",
+				"source": "MM"
+			},
+			"damageTags": [
+				"P"
+			]
 		}
 	],
 	"item": [
